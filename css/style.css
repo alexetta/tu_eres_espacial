@@ -1,0 +1,170 @@
+/*header*/
+header{
+  height: 4.8125rem;
+}
+.logo{
+  padding-left: 20px;
+  padding-top: 20px;
+  display: inline-block;
+
+}
+.burger {
+  display: none;
+  float: right;
+  margin-right: 2em;
+}
+
+.logo img,
+.burger img{
+  height: 3rem;
+  margin-top: 20px;
+  float: left;
+}
+
+.home{
+  background:  #101023 url(../img/bg_home.png) no-repeat ;
+  background-position: top center;
+  background-size: auto 100%; 
+  height: 45rem;
+  margin-top: -10rem;
+  padding-top: 25rem;
+  text-align: center;
+}
+
+.top-bar{
+	background-image: linear-gradient(#000000, transparent);
+	background-color: transparent;
+  height: 4.8125rem;
+}
+
+.top-bar-section {
+  float: right;
+}
+
+.top-bar-section ul{
+    overflow: hidden;
+    /*float: right;*/
+}
+
+.top-bar-section ul li {
+	background-color: transparent !important;
+  float: none;
+  display: inline-block;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+    background-color: transparent !important;
+}
+
+.top-bar-section ul li > a{
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-transform: uppercase; 
+
+}
+
+
+ .home h1, .home h2{
+   color: #ffffff !important;
+}
+
+/* Videos*/
+
+.video-galaxia{
+  background-color: #101023;
+  text-align: center;
+  color: #ffffff;
+  padding: 3rem;
+}
+
+.video-galaxia li{
+  list-style-type: none;
+  display: none;
+}
+li.active{
+  display: block;
+}
+
+.video{
+  margin: 0 auto;
+  background-color: #2A2B4C;
+  text-align: left;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.user img{
+  width: 25px;
+}
+
+.video-galaxia h2{
+  margin-top: 0 0 10px;
+  color: #ffffff;
+
+}
+
+.video iframe{
+  width: 100%;
+  height: 260px;
+
+}
+.videoDetails hr{
+  border-color: #101023;
+}
+
+.videoDetails{
+  padding: 0 20px;
+}
+
+.userName p{
+  display: inline-block;
+}
+
+.userName a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  margin-top: 4px;
+}
+
+.videoComments p{
+  display: inline-block;
+}
+
+.imgUser{
+  width: 25px;
+  height: 25px;
+}
+
+/*Footer*/
+
+footer{
+  background-color: #ffffff;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 40.063em){
+  .top-bar-section ul{
+    overflow: hidden;
+    /*float: right;*/
+  }
+
+  .top-bar-section li:not(.has-form) a:not(.button){
+    line-height: 4.8125rem;
+  }
+  .top-bar-section li:not(.has-form) a:not(.button):hover{
+    color:#F9627F;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .top-bar-section {
+    display: none;
+  }
+
+  .burger {
+    display: inline-block;
+  }
+} 

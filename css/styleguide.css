@@ -1,0 +1,264 @@
+/* Home */
+article{
+  padding-bottom: 80px;
+}
+
+
+
+.introduction{
+  background-color: #63C3C6 ;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+.introduction p{
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.introduction h1{
+  color: #0F0F38;
+}
+/* Tipografia */
+h1{
+   font-family: 'Lato', sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom:10px;
+   line-height: 40px;
+   letter-spacing: 1px;
+}
+
+h2{
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 36px;
+   margin-bottom: 30px;
+}
+
+h3{
+   font-family: 'Lato', sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 22px;
+   letter-spacing: 1px;
+   margin-bottom: 30px;
+}
+
+h4{
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+p{
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+ .destacado{
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 22px;
+}
+
+ .instruction{
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   font-style: italic; 
+   font-weight: 400;
+   line-height: 22px;
+   margin-bottom: 30px;
+}
+
+small{
+   font-family: 'Lato', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;
+   margin-bottom: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 40.063em) {
+  h1{
+     font-family: 'Lato', sans-serif;
+     font-size: 32px;
+     font-weight: 700;
+     margin-bottom:10px;
+     line-height: 40px;
+     letter-spacing: 1px;
+  }
+
+  h2{
+     font-family: 'Lato', sans-serif;
+     font-weight: 700;
+     font-size: 22px;
+     line-height: 30px;
+     margin-bottom: 30px;
+  }
+
+  h3{
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 26px;
+     letter-spacing: 1px;
+     margin-bottom: 30px;
+  }
+
+  h4{
+     font-family: 'Lato', sans-serif;
+     font-size: 13px;
+     font-weight: 400;
+     line-height: 18px;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     margin-bottom: 30px;
+  }
+
+  p{
+     font-family: 'Lato', sans-serif;
+     font-size: 16px;
+     line-height: 22px;
+  }
+
+   .destacado{
+     font-family: 'Lato', sans-serif;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 22px;
+  }
+
+   .instruction{
+     font-family: 'Lato', sans-serif;
+     font-size: 16px;
+     font-style: italic; 
+     font-weight: 400;
+     line-height: 22px;
+  }
+
+  small{
+     font-family: 'Lato', sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 22px;
+     margin-bottom: 30px;
+  }
+
+    
+}
+
+/* Colores */
+.dark_bg{
+  height: 150px;
+  background-color: #0f0f38;
+}
+.blue_bg{
+  height: 150px;
+  background-color: #63c3c6;
+}
+.pink_bg{
+  height: 150px;
+  background-color: #F9627F;
+}
+.white_bg{
+  height: 150px;
+  background-color: #FFFFFF;
+  border: 1px solid grey;
+}
+
+
+/* Botones */
+
+.dark{
+  background-color: #0f0f38;
+  padding: 20px;
+}
+.lighter{
+  padding: 20px;
+}
+
+.pink_btn{
+  background-image: linear-gradient(#f7839e, #f55a7f);
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, .55);
+}
+
+.white_btn{
+  background-image: linear-gradient(#ffffff, #bfbfbf);
+  color: #0f0f38;
+}
+
+.pink_btn:hover, .pink_btn:focus{
+  background-image: linear-gradient(#f55a7f, #b8445f);
+  color: #fff;
+}
+
+.white_btn:hover, .white_btn:focus {
+    background-image: linear-gradient(#bae8e8, #87c4c4); 
+  }
+
+.white_btn:hover, .white_btn:focus {
+    color: #0F0F38; 
+  }
+
+.link{
+  font-family: 'Lato', sans-serif;
+  color: #F9627F;
+  font-size: 16px;
+  font-style: italic; 
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.link:hover{
+  color: #C9425D;
+}
+
+
+/* Notificacions */
+
+.wrong p{
+  background-color: #f7e6ed;
+  padding: 10px 25px;
+  font-style: italic;
+  color: #f7627f;
+  border:1px solid #f7627f;
+  border-radius: 100px;
+}
+
+.good p{
+  background-color: #cdf7f7;
+  padding: 10px 25px;
+  font-style: italic;
+  color: #100f22;
+  border:1px solid #63C3C6;
+  border-radius: 100px;
+}
+
+/* Formularios */
+
+label{
+  display: none;
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+  border-color: #cccccc;
+  border-radius: 100px;
+  font-style: italic;
+  font-size: 16px;
+  padding: 10px 25px;
+}
+
+
