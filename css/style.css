@@ -71,6 +71,10 @@ header{
 
 /* Videos*/
 
+
+.next, .previous{
+  display: inline-block;
+}
 .video-galaxia{
   background-color: #101023;
   text-align: center;
@@ -82,8 +86,12 @@ header{
   list-style-type: none;
   display: none;
 }
+
+
+
 li.active{
   display: block;
+  overflow: hidden;
 }
 
 .video{
@@ -135,6 +143,24 @@ li.active{
 .imgUser{
   width: 25px;
   height: 25px;
+}
+
+
+.video-galaxia form{
+  display: inline-block;
+  width: 85%;
+  font-family: 
+}
+
+.video-galaxia input{
+  
+  height:1.9125rem;
+}
+
+.dropDown{
+  width: 20px;
+  float: right;
+  margin-top: 18px;
 }
 
 /*Footer*/

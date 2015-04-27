@@ -254,6 +254,7 @@ label{
   display: none;
 }
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+  font-family: 'Lato', sans-serif;
   border-color: #cccccc;
   border-radius: 100px;
   font-style: italic;
