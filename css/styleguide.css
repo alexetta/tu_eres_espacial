@@ -1,7 +1,4 @@
 /* Home */
-article{
-  padding-bottom: 80px;
-}
 
 
 
@@ -34,7 +31,6 @@ h2{
    font-weight: 700;
    font-size: 24px;
    line-height: 36px;
-   margin-bottom: 30px;
 }
 
 h3{
@@ -42,8 +38,6 @@ h3{
    font-size: 20px;
    font-weight: 700;
    line-height: 22px;
-   letter-spacing: 1px;
-   margin-bottom: 30px;
 }
 
 h4{
@@ -58,7 +52,6 @@ h4{
 p{
    font-family: 'Lato', sans-serif;
    font-size: 16px;
-   line-height: 22px;
 }
 
  .destacado{
@@ -105,7 +98,6 @@ a{
      font-weight: 700;
      font-size: 22px;
      line-height: 30px;
-     margin-bottom: 30px;
   }
 
   h3{
@@ -113,8 +105,6 @@ a{
      font-size: 18px;
      font-weight: 700;
      line-height: 26px;
-     letter-spacing: 1px;
-     margin-bottom: 30px;
   }
 
   h4{
@@ -124,7 +114,6 @@ a{
      line-height: 18px;
      letter-spacing: 1px;
      text-transform: uppercase;
-     margin-bottom: 30px;
   }
 
   p{

@@ -13,33 +13,63 @@
   </head>
 
   <body>
-
-    <header class="top-bar">
-      <div class="logo">
-        <a  href="#">
-          <img src="img/logo.svg">
+    <header>
+      <div >
+        <a href="#">
+          <img class="logo" src="img/logo.svg">
+        </a>
+      </div>
+      <div class="close">
+        <a href="#">
+          <img src="img/close.svg">
         </a>
       </div>
       <div class="burger">
-        <a  href="#">
-          <img src="img/logo.svg">
+        <a href="#">
+          <img src="img/menu.svg">
         </a>
       </div>
-      <nav class="top-bar-section" data-topbar>  
+      <nav class="menu" >  
           <ul>
             <li><a href="#">Vídeo-Galaxia</a></li>
             <li><a href="#">Premios</a></li>
             <li><a href="#">Ayúdano$</a></li>
             <li><a href="#">Nosotros</a></li>
             <li><a href="#">Contacto</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Registro</a></li>
+            <li><a href="#" class="login_btn">Login</a></li>
+            <li><a href="#" class="registro_btn">Registro</a></li>
           </ul>
       </nav>
-    </header>
-     
-     
-     
+      <div class="form_registro">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 28.042 28.042" enable-background="new 0 0 28.042 28.042" xml:space="preserve">
+            <g>
+                <line fill="none" stroke="#666666" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="26.042" y1="26.042" x2="2" y2="2"/>
+              
+                <line fill="none" stroke="#666666" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="2" y1="26.042" x2="26.042" y2="2"/>
+            </g> 
+          </svg>
+        </a>
+        <p class="destacado">Accede</p>
+        <hr>
+        <form>
+          <label>Accede con Facebook</label>
+          <input type="submit" name="facebook" value="Accede con Facebook">
+          <label>Accede con Google+</label>
+          <input type="submit" name="googlePlus" value="Accede con Google+">
+          <label>Introduce tu email</label>
+          <input type="text" placeholder="Email">
+          <label>Introduce la contraseña</label>
+          <input name="password" type="password" placeholder="Enter your password">
+          <p class="link">¿Has olvidado tu contraseña</p>
+          <input class="pink_btn" name="login" type="submit" value="ACCEDER"><br>
+          <input type="checkbox"> Mantenerme registrado
+          </form>
+          <p>¿Aún no tienes cuenta? <a href="#" class="link">Regístrate</a></p>
+  
+      </div>
+    </header> 
+
       <article class="home">
         <div class="row text-center">
           <h1 class="medium-6 large-6 small-centered medium-centered large-centered columns">Qué eres capaz de hacer para ir al espacio?</h1>
@@ -51,14 +81,15 @@
      
       <article class="video-galaxia">
         
-          <h2>Vídeo-galaxia</h2>
-          <p>Descubre las histórias
+          <h1>Vídeo-galaxia</h1>
+          <p>Descubre las histórias de los participantes
           </p>  
         <div class="row">
+         <div>
           <a href="#" class="previous"><img src="img/arrowSlide.png"></a>
           <ul>
-            <li class="small-10 medium-5 large-5 large-centered columns active">
-              <div class=" video">
+            <li class="small-12 medium-5 large-5 large-centered medium-centered columns active">
+              <div class="video">
                 <div>
                   <iframe width="560" height="349" src="https://www.youtube.com/embed/-acmjJb8f78" frameborder="0" allowfullscreen></iframe>
                 </div>
@@ -89,24 +120,166 @@
                 </div>
               </div>
             </li>
-            <li class="small-10 medium-6 large-6 columns">
-
+            
+            <li class="small-12 medium-5 large-5 large-centered medium-centered columns">
+              <div class="video">
+                <div>
+                  <iframe width="560" height="349" src="https://www.youtube.com/embed/KJ60hhQaNFo" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="videoDetails">
+                  <div>
+                    <p class="destacado">Perro soñadora</p>
+                    <p><img class="imgUser" src="img/user.svg"> 378</p>
+                  </div>
+                  <hr>
+                  <div class="userName">
+                    <img  class="imgUser" src="img/user.svg">
+                    <p>Mario Martínez Rosales</p>
+                    <a href="#" class="medium round button pink_btn">Seguir</a>
+                  </div>
+                  <hr>
+                  <div class="videoComments">
+                    <img class="imgUser" src="img/user.svg">
+                    <p>3 Comentarios</p>
+                    <img class="dropDown" src="img/arrowDown.png">
+                  </div>
+                  <hr>
+                  <div class="videoComments">
+                    <img class="imgUser" src="img/user.svg">
+                    <form>
+                      <input type="text" placeholder="Escribe tu comentario...">
+                    </form>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li class="small-10 medium-6 large-6 columns">
-
-            </li>
-            <li class="small-10 medium-6 large-6 columns">
-
-            </li>
-            <li class="small-10 medium-6 large-6 columns">
-
+            <li class="small-12 medium-5 large-5 large-centered medium-centered columns">
+              <div class="video">
+                <div>
+                  <iframe width="560" height="349" src="https://www.youtube.com/embed/1z07x-TVDLU" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="videoDetails">
+                  <div>
+                    <p class="destacado">Perro soñadora</p>
+                    <p><img class="imgUser" src="img/user.svg"> 378</p>
+                  </div>
+                  <hr>
+                  <div class="userName">
+                    <img  class="imgUser" src="img/user.svg">
+                    <p>Mario Martínez Rosales</p>
+                    <a href="#" class="medium round button pink_btn">Seguir</a>
+                  </div>
+                  <hr>
+                  <div class="videoComments">
+                    <img class="imgUser" src="img/user.svg">
+                    <p>3 Comentarios</p>
+                    <img class="dropDown" src="img/arrowDown.png">
+                  </div>
+                  <hr>
+                  <div class="videoComments">
+                    <img class="imgUser" src="img/user.svg">
+                    <form>
+                      <input type="text" placeholder="Escribe tu comentario...">
+                    </form>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>  
           <a href="#" class="next"><img src="img/arrowSlide.png"></a> 
+         </div>
         </div>
+        <a href="#" class="medium round button white_btn">¡Ver Ranking!</a>
+        <a href="#" class="medium round button white_btn">Ver galería completa</a>
         
        </article>
-      
+
+      <article class="steps clearfix">
+        <h2>Sigue estos sencillos pasos y forma parte de esta extraordinaria aventura</h2>
+        <div class="row">
+          <div class="large-4 medium-4 columns">
+            <img src="img/3.svg">
+            <h3>1. Ponte un casco,</h3>
+            <p>o algo similar en la cabeza</p>
+          </div>
+          <div class="large-4 medium-4 columns">
+            <img src="img/1.svg">
+            <h3>2. Graba un vídeo de 30s,</h3>
+            <p>de la forma que tu quieras</p>
+          </div>
+          <div class="large-4 medium-4 columns">
+            <img src="img/2.svg">
+            <h3>3. Súbelo a tu plataforma preferida</h3>
+            <p>y compartelo con nosotros</p>
+          </div>
+        </div>
+        <h3>Y consigue ser el más votado</h3>
+        <a href="#" class="medium round button pink_btn">¡Participa!</a>
+
+      </article>
+      <article>
+        <div class="progressKnow">
+          <div class="row">
+            <h1>Cofínancia este proyecto en <a class="link" href="">Goteo.org</a></h1>
+            <div class="large-8 large-centered columns">
+              <div class="progress-wrap progress" data-progress-percent="42">
+                <div class="progress-bar progress"></div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="donations">
+          <div class="recaudado">
+            <p class="tittle">Obtenido</p>
+            <p class="tittle2">80.245€</p>
+          </div>
+
+          <div class="dias">
+            <p class="tittle">Nos quedan</p>
+            <p class="tittle2">73 Días</p>
+          </div>
+        </div>
+        
+        <div class="goteo">
+          <div class="row">
+            <div class="large-6 medium-8 small-10 large-centered medium-centered small-centered columns">
+              <h2>Simple. Tú donas, <br> ¡nosotros te compensamos!</h2>
+              
+              <div>
+                <div class="large-4 medium-4 columns money">
+                  <a href="#" class="plus"> <img src="img/plus.svg"></a>
+                  <hr>
+                  <ul>
+                    <li class="moneyActive"><p>30€</p></li>
+                    <li><p>50€</p></li>
+                    <li><p>60€</p></li>
+                  </ul>
+                  <hr>
+                  <a href="#" class="less"> <img src="img/less.svg"></a>
+                </div>
+
+                <div class="large-8 medium-8 columns rewards">
+                  <ul>
+                    <li class="moneyActive"><img src="img/t-shirt.png"><p>Te llevas una camiseta espacial!</p></li>
+                    <li><img src="img/t-shirt2.png"><p>Te llevas una camiseta espacial!</p></li>
+                    <li><img src="img/t-shirt3.png"><p>Te llevas una camiseta espacial!</p></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="large-12 columns">
+                <h3>Ya han colaborado <strong>825</strong> personas</h3>
+                <a href="" class="medium round button pink_btn small-centered medium-centered large-centered">Colabora</a>
+                <h3>¡Pásalo!</h3>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </article>
     
      
        
@@ -130,14 +303,22 @@
         </div> 
       </div>
       </footer>
+    
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
       $(document).foundation();
 
       $('.burger a').click(function(event) {
-        $('.top-bar-section').show();
+        $('nav').show();
       });
+
+      $('.login_btn').click(function(event) {
+        $('form_registro').show();
+      });
+
     </script>
   </body>
 </html>
