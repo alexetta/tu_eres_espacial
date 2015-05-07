@@ -61,6 +61,19 @@ function showRecompensaP(evento){
 $('a.less').click(showRecompensaP);
 
 
+function scrollHeader(evento){
+  evento.preventDefault();
+  var li = $('.goteo li.moneyActive');
+  li.removeClass('moneyActive');
+  
+  if(li.prev().length != 0){ //Si hay siguiente
+   li.prev().addClass('moneyActive');
+   }else{ //si no
+    $('.goteo li').last().addClass('moneyActive');
+   }
+ }
+
+$('a.less').click(showRecompensaP);
 
 
  // on page load...
