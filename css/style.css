@@ -396,8 +396,15 @@ input[name="login"]:hover, input[name="login"]:focus{
 /*Footer*/
 
 footer{
-  background-color: #ffffff;
+  background-color: #25AEB1;
+  padding: 3rem;
+  color: #ffffff;
 }
+
+footer a{
+  display: block;
+}
+
 
 @media only screen and (max-width: 56.250em){
   nav{
