@@ -38,8 +38,9 @@ function showRecompensaN (evento){
   if(li.next().length != 0){ //Si hay siguiente
  	 li.next().addClass('moneyActive');
  	 }else{ //si no
-    $('.goteo li').first().addClass('moneyActive');
- 	 }
+    $('.rewards li').first().addClass('moneyActive');
+    $('.money li').first().addClass('moneyActive');
+   }
  }
 
 $('a.plus').click(showRecompensaN);
@@ -54,30 +55,34 @@ function showRecompensaP(evento){
   if(li.prev().length != 0){ //Si hay siguiente
    li.prev().addClass('moneyActive');
    }else{ //si no
-    $('.goteo li').last().addClass('moneyActive');
+    $('.rewards li').last().addClass('moneyActive');
+    $('.money li').last().addClass('moneyActive');
    }
  }
 
 $('a.less').click(showRecompensaP);
 
 
-function scrollHeader(evento){
-  evento.preventDefault();
-  var li = $('.goteo li.moneyActive');
-  li.removeClass('moneyActive');
-  
-  if(li.prev().length != 0){ //Si hay siguiente
-   li.prev().addClass('moneyActive');
-   }else{ //si no
-    $('.goteo li').last().addClass('moneyActive');
-   }
- }
+function addBackgroundToHeader(evento){
+  var header = $('.mainHeader');
 
-$('a.less').click(showRecompensaP);
+  if( $(window).scrollTop() > 100 ) {
+    header.addClass('headerBackground');
+  } else {
+    header.removeClass('headerBackground')
+  }
+};
 
-
- // on page load...
+$(window).scroll(function(){
+  addBackgroundToHeader();
+  if( $(window).scrollTop() > 1500) {
     moveProgressBar();
+  }
+    
+});
+
+
+
     // on browser resize...
     $(window).resize(function() {
         moveProgressBar();
@@ -85,7 +90,6 @@ $('a.less').click(showRecompensaP);
 
     // SIGNATURE PROGRESS
     function moveProgressBar() {
-      console.log("moveProgressBar");
         var getPercent = ($('.progress-wrap').data('progress-percent') / 100);
         var getProgressWrapWidth = $('.progress-wrap').width();
         var progressTotal = getPercent * getProgressWrapWidth;
@@ -93,7 +97,15 @@ $('a.less').click(showRecompensaP);
         
         // on page load, animate percentage bar to data percentage length
         // .stop() used to prevent animation queueing
+        var markerProgress = progressTotal + $('.marker').width()/2;
+        $('.marker').stop().animate({
+          left: markerProgress
+        }, animationLength);
         $('.progress-bar').stop().animate({
             left: progressTotal
         }, animationLength);
     }
+
+
+
+

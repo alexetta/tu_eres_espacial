@@ -13,19 +13,19 @@
   </head>
 
   <body>
-    <header>
+    <header class="mainHeader">
       <div >
         <a href="#">
           <img class="logo" src="img/logo.svg">
         </a>
       </div>
-      <div class="close">
-        <a href="#">
+      <div class="menu-toggle close">
+        <a href="">
           <img src="img/close.svg">
         </a>
       </div>
-      <div class="burger">
-        <a href="#">
+      <div class="menu-toggle burger">
+        <a href="2">
           <img src="img/menu.svg">
         </a>
       </div>
@@ -228,6 +228,9 @@
                 <p>Mínimo</p>
               </div>
               <div class="large-8 medium-8 columns">
+                <div class="marker">
+                  💝
+                </div>
                 <div class="progress-wrap progress" data-progress-percent="42">
                   <div class="progress-bar progress"></div>
                 </div>
@@ -305,7 +308,7 @@
             <hr>
             <h4>Email de contacto</h4>
             <img src="">
-            <p>tueresespacial@gmail.com</p>
+            <a href="">tueresespacial@gmail.com</a>
             <hr>
             <a href="">Faq</a>
             <a href="">Participa</a>
@@ -318,7 +321,7 @@
               <!-- Begin MailChimp Signup Form -->
               <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
               <style type="text/css">
-                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                #mc_embed_signup{background:#25AEB1; clear:left; font:14px Helvetica,Arial,sans-serif; }
                 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
               </style>
@@ -329,7 +332,7 @@
                 <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;"><input type="text" name="b_77217904e0aabdb49e69a5ca0_7a2411eb62" tabindex="-1" value=""></div>
-                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button round pink_btn"></div>
                   </div>
               </form>
               </div>
@@ -344,6 +347,9 @@
             </div>
           </div>
         </div>
+        <div class="footer2">
+          <p>Copyright © 2015 tu eres espacial</p>
+        </div>
       </footer>
     
 
@@ -353,12 +359,21 @@
     <script>
       $(document).foundation();
 
-      $('.burger a').click(function(event) {
-        $('nav').show();
+      $('.menu-toggle a').click(function(event) {
+        event.preventDefault();
+        if($('.burger img').is(':visible')) {
+          $('nav').show();
+          $('.burger img').hide();
+          $('.close').show();
+        } else {
+          $('nav').hide();
+          $('.burger img').show();
+          $('.close').hide();
+        }
       });
 
       $('.login_btn').click(function(event) {
-        $('form_registro').show();
+        $('.form_registro').show();
       });
 
     </script>
