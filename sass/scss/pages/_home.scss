@@ -1,6 +1,6 @@
 /*header*/
 .home{
-  background: #101023 url(../img/bg_home.png) no-repeat;
+  background: #101023 url(../../img/bg_home.png) no-repeat;
   background-position: bottom center;
   background-size: auto 85%; 
   height: 45rem;
@@ -219,7 +219,7 @@ li.active{
 .goteo{
   text-align: center;
   color: #ffffff;
-  background: url(../img/cohete.svg) no-repeat;
+  background: url(../../img/cohete.svg) no-repeat;
   background-position: bottom;
   background-size: 400px; 
   background-color: #100F22;
@@ -261,6 +261,25 @@ li.moneyActive{
 
 .marker {
   position: absolute;
+}
+
+.who{
+  background-color: #ffffff;
+  padding: 3rem;
+  img{
+    width: 200px;
+  }
+  h1{
+    text-align: center;
+  }
+
+}
+.pictures{
+  padding: 3rem;
+}
+
+.quote{
+  text-align: center;
 }
 
 
