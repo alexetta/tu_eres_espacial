@@ -1,0 +1,52 @@
+
+@media only screen and (max-width: 56.250em){
+  nav{
+    background-color: #101023;
+    margin: 0;
+    padding: 3rem 7rem 2rem 0;
+    display: none;
+  }
+  nav li{
+    display:block;
+    padding-top: 20px;
+
+  }
+  .burger {
+    display: inline-block;
+  }
+  .burger img{
+    font-weight: 300;
+  }
+}
+/* 768px */
+@media only screen and (max-width: 48em){
+
+  .home{
+    background-size: auto 70%;
+    background-position: center;
+    padding: 20rem 0;
+  }
+
+  .recaudado, .dias{
+    text-align: center;
+    padding: 0;
+  }
+}
+
+
+/* 320 px */
+@media only screen and (max-width: 20em){
+  .tittle{
+    font-size: 1.25rem;
+    color: #ffffff;
+  }
+
+  .tittle2{
+    font-size: 2rem;
+  }
+
+  .recaudado, .dias{
+    text-align: center;
+    padding: 0;
+  }
+}

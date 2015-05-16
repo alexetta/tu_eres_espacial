@@ -1,0 +1,80 @@
+.mainHeader{
+  height: 4.8125rem;
+  position: fixed;
+    top: 0;
+    left: 0;
+  width: 100%;
+  background-image: linear-gradient(#000000, transparent);
+  background-color: rgba(16, 16, 35, 0);
+  z-index: 90;
+  transition: background-color 0.4s ease-out ;
+  }
+
+.headerBackground{
+  background-color: rgba(16, 16, 35, 1);
+  
+}
+
+.logo{
+  height: 3rem;
+  margin: 20px 0 0 20px;
+  float: left;
+}
+
+.burger,
+.close {
+  display: none;
+}
+
+.burger img,
+.close img{
+  float: right;
+  position: absolute;
+    top: 0;
+    right: 0;
+  margin: 20px 20px 0 0; 
+  height: 20px;
+  z-index: 101;
+}
+nav{
+  float: right;
+  margin: 10px 20px 0 0; 
+}
+
+nav li{
+  display: inline-block; 
+  padding-left: 20px;
+}
+
+nav a{
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+
+}
+
+nav a:hover{
+  color: #F9627F;
+}
+
+.login_btn, .registro_btn{
+  color: #F9627F;
+}
+
+.login_btn{
+  padding-left: 50px;
+}
+
+.registro_btn{
+  border: 1px solid #F9627F;
+  border-radius: 100px;
+  padding: 5px 15px;
+}
+
+.registro_btn:hover{
+  background-color: #F9627F;
+  color: #ffffff;
+}
+

@@ -1,0 +1,267 @@
+/*header*/
+.home{
+  background: #101023 url(../img/bg_home.png) no-repeat;
+  background-position: bottom center;
+  background-size: auto 85%; 
+  height: 45rem;
+  margin-top: -10rem;
+  padding: 25rem 0;
+  text-align: center;
+}
+
+ .home h1, .home h2{
+   color: #ffffff;
+}
+
+/* Videos*/
+
+
+.next, .previous{
+  display: inline-block;
+}
+.video-galaxia{
+  background-color: #101023;
+  text-align: center;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.video-galaxia li{
+  list-style-type: none;
+  display: none;
+}
+
+.video-galaxia div:first-child{
+  position: relative;
+}
+
+
+li.active{
+  display: block;
+  overflow: hidden;
+}
+
+.video{
+  margin: 0 auto;
+  background-color: #2A2B4C;
+  text-align: left;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.user img{
+  width: 25px;
+}
+
+.video-galaxia h2{
+  margin-top: 0 0 10px;
+  color: #ffffff;
+
+}
+
+.video iframe{
+  width: 100%;
+  height: 260px;
+
+}
+
+.previous, .next {
+  position: absolute;
+  top: 50%;
+  margin-top:-20px;
+}
+
+.previous{
+  left: 10%;
+  transform: rotateY(180deg);
+}
+
+.next{
+  right: 10%;
+}
+.videoDetails hr{
+  border-color: #101023;
+}
+
+.videoDetails{
+  padding: 0 20px;
+}
+
+.userName p{
+  display: inline-block;
+}
+
+.userName a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  margin-top: 4px;
+}
+
+.videoComments p{
+  display: inline-block;
+}
+
+.imgUser{
+  width: 25px;
+  height: 25px;
+}
+
+
+.video-galaxia form{
+  display: inline-block;
+  width: 85%;
+}
+
+.video-galaxia input{
+  
+  height:1.9125rem;
+}
+
+.dropDown{
+  width: 20px;
+  float: right;
+  margin-top: 18px;
+}
+.white_btn{
+  margin:15px;
+}
+/*Steps*/
+
+.steps{
+  background-color: #63c3c6;
+  text-align: center;
+  padding: 30px;
+}
+
+.steps .button{
+  padding: 15px 60px;
+}
+/*Donations*/
+.donations{
+  background-color: #ffffff;
+  text-align: center;
+}
+
+
+/*Donaciones*/
+
+.progressKnow{
+  background-color: #ffffff;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.progressKnow a{
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.progressKnow img{
+  width:100px;
+}
+
+
+.progress {
+  width: 100%;
+  height: 15px;
+}
+.progress-wrap {
+  background: #F9627F;
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative;
+   border-radius: 100px
+}
+  .progress-bar {
+    background: #000033;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+
+
+.recaudado, .dias{
+  width: 50%;
+  display: inline-block;
+  padding: 0 5em;
+}
+
+.tittle{
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.tittle2{
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.recaudado{
+  background-color: #F5627F;
+  text-align: right;
+}
+
+.dias{
+  background-color: #25AEB1;
+  float: right;
+  text-align: left;
+}
+
+
+.goteo{
+  text-align: center;
+  color: #ffffff;
+  background: url(../img/cohete.svg) no-repeat;
+  background-position: bottom;
+  background-size: 400px; 
+  background-color: #100F22;
+  padding: 3rem 0 20rem;
+}
+
+.goteo li{
+  list-style-type: none;
+  display:none;
+}
+
+.goteo hr{
+  width:75%;
+}
+
+.goteo .button{
+  padding: 15px 60px;
+}
+
+li.moneyActive{
+  display: block;
+}
+ 
+.money img{
+  width: 30px;
+  margin: 10px;
+}
+.goteo ul{
+  padding: 0;
+}
+
+.money p{
+  font-size: 36px
+}
+
+.goteo h3{
+  font-weight: 100;
+}
+
+.marker {
+  position: absolute;
+}
+
+
+
