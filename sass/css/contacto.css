@@ -8260,8 +8260,11 @@ li.moneyActive {
   background-image: url(../../img/fondo1.jpg);
   background-color: #101023;
   text-align: center;
-  padding: 7rem 0 3rem;
+  padding: 7rem 0 5rem;
   color: #ffffff; }
+  .contact input [value="Enviar"] {
+    border: 0;
+    border-radius: 100px; }
 
 @media only screen and (max-width: 56.25em) {
   nav {

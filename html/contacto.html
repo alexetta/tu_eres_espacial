@@ -83,8 +83,9 @@
           <input type="tel" placeholder="Teléfono">
           <label>Escribe tu mensaje</label>
           <textarea name="mensaje" rows="5" cols="30">Escribe tu mensaje</textarea>
-          <input type="submit" class="pink_btn" value="submit">
+          <input type="submit" class="pink_btn" value="Enviar">
         </form>
+        <p>(+34)650 939  768</p><p>tueresespacial@gmail.com</p>
       </div>
     </article>
 
@@ -145,7 +146,27 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+      $(document).foundation();
 
+      $('.menu-toggle a').click(function(event) {
+        event.preventDefault();
+        if($('.burger img').is(':visible')) {
+          $('nav').show();
+          $('.burger img').hide();
+          $('.close').show();
+        } else {
+          $('nav').hide();
+          $('.burger img').show();
+          $('.close').hide();
+        }
+      });
+
+      $('.login_btn').click(function(event) {
+        $('.form_registro').show();
+      });
+
+    </script>
   </body>
   </html>
