@@ -247,7 +247,7 @@ a{
 label{
   display: none;
 }
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"]{
   font-family: 'Lato', sans-serif;
   border-color: #cccccc;
   border-radius: 100px;
@@ -255,5 +255,18 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   font-size: 16px;
   padding: 10px 25px;
 }
+
+textarea {
+  font-family: 'Lato', sans-serif;
+  border-color: #cccccc;
+  border-radius: 20px;
+  font-style: italic;
+  font-size: 16px;
+  padding: 10px 25px;
+  color: #aaaaaa;
+
+}
+
+
 
 
