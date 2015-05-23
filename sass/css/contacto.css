@@ -7963,7 +7963,10 @@ a {
 
 .pink_btn {
   background-image: linear-gradient(#f7839e, #f55a7f);
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.55); }
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.55);
+  font-family: 'Lato', sans-serif;
+  border-radius: 100px;
+  border: 0; }
 
 .white_btn {
   background-image: linear-gradient(#ffffff, #bfbfbf);
@@ -8258,6 +8261,7 @@ li.moneyActive {
 
 .contact {
   background-image: url(../../img/fondo1.jpg);
+  background-position: bottom;
   background-color: #101023;
   text-align: center;
   padding: 7rem 0 5rem;
