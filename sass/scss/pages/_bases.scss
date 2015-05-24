@@ -18,5 +18,26 @@
 		top:30%;
 
 	}
+}
 
+.instrucciones{
+	background-color: #ffffff;
+	height: 285px;
+	overflow: hidden;
+}
+
+.paso{
+	height: 300px;
+	width: 20%;
+	padding: 2rem;
+	float: left;
+	text-align: center;
+}
+
+.uno, .tres, .cinco{
+	background-color: #E6E6E6;
+}
+
+.dos, .cuatro{
+	background-color: #ffffff;
 }
