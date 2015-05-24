@@ -8318,6 +8318,21 @@ li.moneyActive {
 .dos, .cuatro {
   background-color: #ffffff; }
 
+.bases {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 3rem; }
+
+.textBases {
+  text-align: left; }
+  .textBases h2 {
+    padding-top: 2rem; }
+
+.participarBases {
+  text-align: left; }
+  .participarBases h2 {
+    padding-top: 2rem; }
+
 @media only screen and (max-width: 56.25em) {
   nav {
     background-color: #101023;
