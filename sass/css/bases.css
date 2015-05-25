@@ -8311,6 +8311,8 @@ li.moneyActive {
   padding: 2rem;
   float: left;
   text-align: center; }
+  .paso img {
+    width: 80px; }
 
 .uno, .tres, .cinco {
   background-color: #E6E6E6; }
@@ -8319,7 +8321,11 @@ li.moneyActive {
   background-color: #ffffff; }
 
 .bases {
-  background-color: #ffffff;
+  background-color: #F1F1F0;
+  background-image: url(../../img/bases/nubes.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
   text-align: center;
   padding: 3rem; }
 
@@ -8332,6 +8338,14 @@ li.moneyActive {
   text-align: left; }
   .participarBases h2 {
     padding-top: 2rem; }
+
+.basesComo img {
+  width: 180px; }
+
+.sponsors {
+  padding-top: 3rem; }
+  .sponsors img {
+    width: 200px; }
 
 @media only screen and (max-width: 56.25em) {
   nav {
