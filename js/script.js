@@ -81,6 +81,38 @@ $(window).scroll(function(){
     
 });
 
+// $(window).scroll(function(){
+//   var participar = $('.participarBases');
+
+//   if( $(window).scrollTop() > 100 ) {
+//     participar.css('position : fixed', 'top : 100px');
+//   } else {
+//     participar.css('position:relative','top : auto')
+//   }
+// });
+
+
+
+
+function fixDiv() {
+    var $cache = $('.participarBases');
+    if ($(window).scrollTop() > 757)
+      $cache.css({
+        'position': 'fixed',
+        'top': '100px',
+        'left': '792.671875px'
+      });
+    else
+      $cache.css({
+        'position': 'static',
+        'top': 'auto'
+      });
+
+}
+
+$(window).scroll(fixDiv);
+
+
 
 
     // on browser resize...
