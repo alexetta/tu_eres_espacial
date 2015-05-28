@@ -31,6 +31,10 @@
   display: none;
 }
 
+.img{
+
+}
+
 .video-galaxia div:first-child{
   position: relative;
 }
@@ -47,6 +51,9 @@ li.active{
   text-align: left;
   border-radius: 10px;
   padding: 0;
+    ul{
+      padding: 0;
+    }
 }
 
 .user img{
@@ -61,8 +68,7 @@ li.active{
 
 .video iframe{
   width: 100%;
-  height: 260px;
-
+  height: 400px;
 }
 
 .previous, .next {
@@ -79,34 +85,37 @@ li.active{
 .next{
   right: 10%;
 }
-.videoDetails hr{
-  border-color: #101023;
+
+.videoDetails{
+  padding: 0 20px;
 }
 
 .videoDetails{
   padding: 0 20px;
 }
 
-.userName p{
-  display: inline-block;
-}
-
-.userName a{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  float: right;
-  margin-top: 4px;
-}
-
-.videoComments p{
-  display: inline-block;
-}
 
 .imgUser{
-  width: 25px;
-  height: 25px;
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  background-color: red;
+  background: #101023 url(../../img/perfil1.jpg) no-repeat;
+  background-size: 65px auto;
+  display: inline-block;
+  margin-right: 10px;
+}
+.userInfo{
+  display: inline-block;
+    img{
+      display: inline-block;
+    }
 }
 
+.name{
+  display: inline-block;
+  margin: 0;
+}
 
 .video-galaxia form{
   display: inline-block;
@@ -123,9 +132,12 @@ li.active{
   float: right;
   margin-top: 18px;
 }
+
 .white_btn{
   margin:15px;
 }
+
+
 /*Steps*/
 
 .steps{
@@ -281,6 +293,9 @@ li.moneyActive{
 .quote{
   text-align: center;
 }
+
+
+
 
 
 

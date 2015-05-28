@@ -142,6 +142,9 @@ footer hr {
   padding: 0.25rem;
   margin-top: 3rem; }
 
+#mce-EMAIL {
+  border-radius: 5px 0 0 5px; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -7911,6 +7914,12 @@ a {
     letter-spacing: 1px;
     text-transform: uppercase; }
 
+  h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px; }
+
   p {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -7963,7 +7972,10 @@ a {
 
 .pink_btn {
   background-image: linear-gradient(#f7839e, #f55a7f);
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.55); }
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.55);
+  font-family: 'Lato', sans-serif;
+  border-radius: 100px;
+  border: 0; }
 
 .white_btn {
   background-image: linear-gradient(#ffffff, #bfbfbf);
@@ -8013,13 +8025,22 @@ a {
 label {
   display: none; }
 
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"] {
   font-family: 'Lato', sans-serif;
   border-color: #cccccc;
   border-radius: 100px;
   font-style: italic;
   font-size: 16px;
   padding: 10px 25px; }
+
+textarea {
+  font-family: 'Lato', sans-serif;
+  border-color: #cccccc;
+  border-radius: 20px;
+  font-style: italic;
+  font-size: 16px;
+  padding: 10px 25px;
+  color: #aaaaaa; }
 
 /*header*/
 .home {
@@ -8061,6 +8082,8 @@ li.active {
   text-align: left;
   border-radius: 10px;
   padding: 0; }
+  .video ul {
+    padding: 0; }
 
 .user img {
   width: 25px; }
@@ -8071,7 +8094,7 @@ li.active {
 
 .video iframe {
   width: 100%;
-  height: 260px; }
+  height: 400px; }
 
 .previous, .next {
   position: absolute;
@@ -8085,27 +8108,30 @@ li.active {
 .next {
   right: 10%; }
 
-.videoDetails hr {
-  border-color: #101023; }
+.videoDetails {
+  padding: 0 20px; }
 
 .videoDetails {
   padding: 0 20px; }
 
-.userName p {
-  display: inline-block; }
-
-.userName a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  float: right;
-  margin-top: 4px; }
-
-.videoComments p {
-  display: inline-block; }
-
 .imgUser {
-  width: 25px;
-  height: 25px; }
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  background-color: red;
+  background: #101023 url(../../img/perfil1.jpg) no-repeat;
+  background-size: 65px auto;
+  display: inline-block;
+  margin-right: 10px; }
+
+.userInfo {
+  display: inline-block; }
+  .userInfo img {
+    display: inline-block; }
+
+.name {
+  display: inline-block;
+  margin: 0; }
 
 .video-galaxia form {
   display: inline-block;
@@ -8246,6 +8272,85 @@ li.moneyActive {
 
 .quote {
   text-align: center; }
+
+.contact {
+  background-image: url(../../img/fondo1.jpg);
+  background-position: bottom;
+  background-color: #101023;
+  text-align: center;
+  padding: 7rem 0 5rem;
+  color: #ffffff; }
+  .contact input [value="Enviar"] {
+    border: 0;
+    border-radius: 100px;
+    min-width: 150px; }
+
+.contactDetails p {
+  display: inline-block;
+  padding-left: 40px; }
+
+.headBases {
+  background-image: url(../../img/fondo1.jpg);
+  color: #ffffff;
+  padding: 4rem;
+  height: 500px;
+  overflow: hidden;
+  position: relative; }
+  .headBases img {
+    position: absolute;
+    bottom: -6rem;
+    left: 9rem; }
+  .headBases .intro {
+    position: absolute;
+    left: 50%;
+    top: 30%; }
+
+.instrucciones {
+  background-color: #ffffff;
+  height: 285px;
+  overflow: hidden; }
+
+.paso {
+  height: 300px;
+  width: 20%;
+  padding: 2rem;
+  float: left;
+  text-align: center; }
+  .paso img {
+    width: 80px; }
+
+.uno, .tres, .cinco {
+  background-color: #E6E6E6; }
+
+.dos, .cuatro {
+  background-color: #ffffff; }
+
+.bases {
+  background-color: #F1F1F0;
+  background-image: url(../../img/bases/nubes.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+  text-align: center;
+  padding: 3rem; }
+
+.textBases {
+  text-align: left; }
+  .textBases h2 {
+    padding-top: 2rem; }
+
+.participarBases {
+  text-align: left; }
+  .participarBases h2 {
+    padding-top: 2rem; }
+
+.basesComo img {
+  width: 180px; }
+
+.sponsors {
+  padding-top: 3rem; }
+  .sponsors img {
+    width: 200px; }
 
 @media only screen and (max-width: 56.25em) {
   nav {
