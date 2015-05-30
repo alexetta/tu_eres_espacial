@@ -31,9 +31,6 @@
   display: none;
 }
 
-.img{
-
-}
 
 .video-galaxia div:first-child{
   position: relative;
@@ -88,12 +85,8 @@ li.active{
 
 .videoDetails{
   padding: 0 20px;
+  margin-bottom: 2rem;
 }
-
-.videoDetails{
-  padding: 0 20px;
-}
-
 
 .imgUser{
   width: 65px;
@@ -134,6 +127,21 @@ li.active{
 
 .votar{
   float: right;
+  text-align: center;
+    p{
+      margin-bottom: 0;
+    }
+    img{
+      display: block;
+      margin: 0 auto;
+      width: 55px;
+      margin-bottom: .4rem;
+      cursor: pointer;
+    }
+    a{
+      padding-top: .4rem;
+      padding-bottom: .525rem;
+    }
 }
 
 .dropDown{
@@ -297,6 +305,7 @@ li.moneyActive{
 }
 .pictures{
   padding: 3rem;
+  text-align: center;
 }
 
 .quote{

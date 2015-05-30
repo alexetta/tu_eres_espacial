@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tu Eres Espacial</title>
-    <link rel="stylesheet" href="sass/css/style.css" /
+    <link rel="stylesheet" href="sass/css/home.css" /
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
     <script src="js/vendor/modernizr.js"></script>
@@ -60,7 +60,7 @@
           <label>Introduce la contraseña</label>
           <input name="password" type="password" placeholder="Enter your password">
           <p class="link">¿Has olvidado tu contraseña</p>
-          <input class="pink_btn" name="login" type="submit" value="ACCEDER"><br>
+          <input class="round button pink_btn" name="login" type="submit" value="ACCEDER"><br>
           <input type="checkbox"> Mantenerme registrado
           </form>
           <p>¿Aún no tienes cuenta? <a href="#" class="link">Regístrate</a></p>
@@ -105,7 +105,7 @@
                   <div class="votar">
                     <p class="votos">651</p>
                     <img src="img/videos/corazonBlanco.svg">
-                    <a href="" class="pink_btn">Votar</a>
+                    <a href="" class="pink_btn round button">Votar</a>
                   </div>
                   
                 </div>
@@ -367,22 +367,7 @@
     <script>
       $(document).foundation();
 
-      $('.menu-toggle a').click(function(event) {
-        event.preventDefault();
-        if($('.burger img').is(':visible')) {
-          $('nav').show();
-          $('.burger img').hide();
-          $('.close').show();
-        } else {
-          $('nav').hide();
-          $('.burger img').show();
-          $('.close').hide();
-        }
-      });
 
-      $('.login_btn').click(function(event) {
-        $('.form_registro').show();
-      });
 
     </script>
   </body>

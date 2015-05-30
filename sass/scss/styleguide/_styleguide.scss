@@ -193,14 +193,15 @@ a{
 .pink_btn{
   background-image: linear-gradient(#f7839e, #f55a7f);
   text-shadow: 1px 1px 6px rgba(0, 0, 0, .55);
+  color: #ffffff;
   font-family: 'Lato', sans-serif;
-  border-radius: 100px;
-  border: 0;
+    border: 0;
 }
 
 .white_btn{
   background-image: linear-gradient(#ffffff, #bfbfbf);
   color: #0f0f38;
+    font-family: 'Lato', sans-serif;
 }
 
 .pink_btn:hover, .pink_btn:focus{
@@ -260,10 +261,14 @@ label{
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"]{
   font-family: 'Lato', sans-serif;
   border-color: #cccccc;
-  border-radius: 100px;
+  border-radius: 1000px;
   font-style: italic;
   font-size: 16px;
   padding: 10px 25px;
+}
+
+input[type="text"]{
+  border-radius: 1000px;
 }
 
 textarea {
@@ -277,6 +282,8 @@ textarea {
 
 }
 
-
+ul{
+  margin: 0;
+}
 
 

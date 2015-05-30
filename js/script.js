@@ -109,22 +109,31 @@ function fixDiv() {
         'top':'700px',
         
       });
-
-
-
-//     // else
-//     //   $cache.css({
-//     //     'position': 'relative',
-//     //     'top': 'auto',
-//     //     'display':'block',
-//     //     'padding-left': '0.9375em',
-//     //     'padding-right': '0.9375em',
-//     //   });
-
 }
 
 $(window).scroll(fixDiv);
 
+
+$('.menu-toggle a').click(function(event) {
+        event.preventDefault();
+        if($('.burger img').is(':visible')) {
+          $('nav').show();
+          $('.burger img').hide();
+          $('.close').show();
+        } else {
+          $('nav').hide();
+          $('.burger img').show();
+          $('.close').hide();
+        }
+});
+
+$('.login_btn').click(function(event) {
+  $('.form_registro').show();
+});
+
+$('.closeLogin').click(function(event) {
+  $('.form_registro').hide();
+});
 
 
 
