@@ -8121,13 +8121,16 @@ li.active {
   background-color: red;
   background: #101023 url(../../img/perfil1.jpg) no-repeat;
   background-size: 65px auto;
-  display: inline-block;
+  float: left;
   margin-right: 10px; }
 
 .userInfo {
-  display: inline-block; }
+  float: left; }
   .userInfo img {
     display: inline-block; }
+
+.user-details {
+  float: left; }
 
 .name {
   display: inline-block;
@@ -8139,6 +8142,9 @@ li.active {
 
 .video-galaxia input {
   height: 1.9125rem; }
+
+.votar {
+  float: right; }
 
 .dropDown {
   width: 20px;
