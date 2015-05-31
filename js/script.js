@@ -136,6 +136,29 @@ $( document ).ready(function() {
       $('.form_registro').hide();
     });
 
+////
+    $('.more').click(function(event) {
+      $('.more').hide();
+      $('.oculto').show();
+      $('.less').show();
+
+    });
+
+    $('.less').click(function(event) {
+      $('.less').hide();
+      $('.oculto').hide();
+      $('.more').show();
+
+    });
+
+    $('.btn_visto').click(function(event) {
+      $('.btn_visto').addClass('btn-active');
+      $('.visto').show();
+      $('.votado').hide();
+      $('.ultimo').hide();
+    });
+
+
 
 
         // on browser resize...
