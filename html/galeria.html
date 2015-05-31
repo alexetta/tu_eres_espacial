@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../sass/css/galeria.css" /
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-    <script src="js/vendor/modernizr.js"></script>
+    <script src="../js/vendor/modernizr.js"></script>
   </head>
 
   <body>
@@ -73,29 +73,391 @@
         <h1>Vídeo-galaxía</h1>
         <h2>Descubre sus histórias</h2>
 
-        <div class="large-4 medium-4 small-6 columns videoGaleria">
-          <div>
-            <iframe width="480" height="360" src="https://www.youtube.com/embed/KJ60hhQaNFo" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="videoDetails clearfix">
-                  <div class="galaxia-user-details clearfix">
-                    <h2>Carta de amor</h2>
-                    <div class="galaxia-imgUser"></div>
-                    <div class="galaxia-userInfo">
-                      <p class="sgalaxia-name">Mario Martínez Rosales</p>
-                      <img src="d">
-                      <p>874</p>
-                    </div>
-                  </div>
+        <div class="filtros"> 
+          <ul class="button-group round">
+            <li><a href="#" class="button white_btn btn_visto">Los más vistos</a></li>
+            <li><a href="#" class="button white_btn btn_votado">Los más votados</a></li>
+            <li><a href="#" class="button white_btn btn_ultimo">Última hora</a></li>
+          </ul>
+        </div>
 
-                  <div class="galaxia-votar">
-                    <p class="votos">651</p>
-                    <img src="../img/videos/corazonBlanco.svg">
-                    <a href="" class="pink_btn round button">Votar</a>
-                  </div>
-                  
+        <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria ultimo">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/KJ60hhQaNFo" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>Gisela Soñadora</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/gisela.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Gisela Hernandez</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>874</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">651</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
           </div>
         </div>
+
+        <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria votado">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/f3CwhkMx1e0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>Sexy Ufo</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/perfil1.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Juan Martínez Rosales</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>1374</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">1151</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+        <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria ultimo">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/93U6snmGNkA" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>Houston tenemos un problema</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/2.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Mario García</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>324</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">445</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+         <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria votado visto">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/uq__xZXas9c" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>Astronauta en la cornisa</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/3.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">David Domínguez</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>1524</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">1645</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+        <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria visto">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/v-RHwy4YFLQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>Travesuras en el pasillo</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/1.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Elena Fernández</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>326</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">1228</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+
+      <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria votado visto">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/Msj7lGPXIIg"  frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>Chipstylah</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/9.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Luís Gener</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>726</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">1728</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+        <button class="round button white_btn more">Ver más vídeos</button>
+
+
+        <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria oculto ultimo">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/oX5YdpU0zuY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>Eli despega </h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/5.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">Elisabet Pacheco</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>174</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">376</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+        <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria oculto votado visto">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/1z07x-TVDLU" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>¡Astronauta Valencialoco!</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/6.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Pedro López</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>298</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">1459</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+        <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria oculto ultimo">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/SO4yh4EnE5E" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>Ukelele</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/10.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Sergio Hernández</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>134</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">245</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+         <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria oculto ultimo">
+            <div>
+              <iframe width="480" height="360"  src="https://www.youtube.com/embed/-acmjJb8f78" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>El niño Vader</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/11.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Javier Bolaño</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>537</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">420</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+        <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria oculto votado">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/Qs3xPNsYDyE" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>The Princess</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/7.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Alicia Gonzalez</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>326</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">1228</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+
+      <div class="large-4 medium-4 small-6 columns">
+          <div class="videoGaleria oculto votado">
+            <div>
+              <iframe width="480" height="360" src="https://www.youtube.com/embed/BTkOs_RWZxY"  frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="videoDetails clearfix">
+                    <div class="galaxia-user-details clearfix">
+                      <a href=""><h2>El monstruo de los spaghettis</h2></a>
+                      <div class="galaxia-imgUser">
+                        <a href=""><img src="../img/videos/8.jpg"></a>
+                      </div>
+                      <div class="galaxia-userInfo">
+                        <a href=""><p class="galaxia-name">Gerard Pla</p></a>
+                        <img src="../img/videos/share.svg">
+                        <a href=""><div>
+                          <img src="../img/videos/coments.svg">
+                          <p>426</p>
+                        </div>
+                        </a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="galaxia-votar">
+                      <p class="votos">1348</p>
+                      <img src="../img/videos/corazonBlanco.svg">
+                      <a href="" class="pink_btn round button">Votar</a>
+                    </div>         
+            </div>
+          </div>
+        </div>
+
+         <button class="round button white_btn less">Ver menos vídeos</button>
 
       </div>
 
@@ -155,9 +517,9 @@
       </footer>
     
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+    <script src="../js/script.js"></script>
     <script>
       $(document).foundation();
 

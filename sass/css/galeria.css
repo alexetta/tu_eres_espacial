@@ -8384,37 +8384,62 @@ li.moneyActive {
   text-align: center;
   color: #ffffff; }
 
+.filtros a {
+  margin: 3rem 0; }
+
+.btn-active {
+  background-image: linear-gradient(#bae8e8, #87c4c4); }
+
+.more {
+  width: 200px; }
+
+.less {
+  display: none; }
+
+.oculto {
+  display: none; }
+
 .videoGaleria {
   background-color: #2A2B4C;
   border-radius: 10px;
-  padding: 0;
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 2rem;
+  overflow: hidden; }
   .videoGaleria iframe {
     width: 100%;
     height: 240px; }
+  .videoGaleria a {
+    color: #ffffff; }
+  .videoGaleria h2 {
+    overflow: hidden;
+    max-height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
 
 .galaxia .videoDetails {
-  padding: 0 20px;
-  margin-bottom: 2rem; }
+  margin-bottom: .5rem; }
+  .galaxia .videoDetails hr {
+    width: 100%;
+    margin: 1rem 0;
+    border-color: #3F4064; }
 
 .galaxia-imgUser {
   width: 40px;
   height: 40px;
   border-radius: 100px;
   background-color: red;
-  background: #101023 url(../../img/perfil1.jpg) no-repeat;
-  background-size: 40px auto;
   float: left;
-  margin-right: 10px; }
+  margin-right: 10px;
+  overflow: hidden; }
 
 .galaxia-userInfo {
   float: left; }
   .galaxia-userInfo img {
+    display: inline-block;
+    width: 15px; }
+  .galaxia-userInfo p {
+    margin: 0;
     display: inline-block; }
-
-.galaxia-name {
-  display: inline-block;
-  margin: 0; }
 
 .galaxia-votar {
   text-align: center; }
