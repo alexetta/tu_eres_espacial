@@ -16,6 +16,11 @@
 .introduction h1{
   color: #0F0F38;
 }
+
+.nav-active{
+  color:#F9627F; 
+}
+
 /* Tipografia */
 h1{
    font-family: 'Lato', sans-serif;
@@ -147,6 +152,7 @@ a{
      font-style: italic; 
      font-weight: 400;
      line-height: 22px;
+     color: #939598;
   }
 
   small{

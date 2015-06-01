@@ -78,7 +78,7 @@
           <div class="perfil-info">
             <h2>Nombre del Usuario</h2>
             <div class="editar">
-              <h4>¿Quien eres?</h4>
+              <button><h4>¿Quien eres?</h4></button>
               <button><img src="../img/perfil/editar.svg"></button>
             </div>
             <p>Soy de...</p>
@@ -101,12 +101,61 @@
 
       </div>
     </section>
-
-    <section>
-      <div class="perfil-video">
-
+    <section class="secondary-menu">
+      <div class="row">
+        <ul>
+          <li><a href="">Tu perfil</a></li>
+          <li><a href="">Votados</a></li>
+        </ul> 
       </div>
-      <div class="perfil-descripcion">
+    </section>
+    <section class="tu-perfil">
+      <div class="row">
+        <div class="large-8 medium-8 columns perfil-video">  
+          <h3>Sube tu vídeo y participa en esta aventura</h3>
+          <form>
+            <label>Pega la URL de tu vídeo</label>
+            <input type="text" placeholder="Pega aquí la URL de tu vídeo">
+            <input class="round button pink_btn" type="submit" value="ENVIAR">
+          </form>
+          <small>Solo admitimos vídeos de las siguientes plataformas:</small>
+          <ul>
+            <li><img src="../img/perfil/youtube.svg"></li>
+            <li><img src="../img/perfil/vimeo.svg"></li>
+            <li><img src="../img/perfil/instagram.svg"></li>
+          </ul>
+        </div>
+        <div class="large-4 medium-4 columns perfil-descripcion">
+          <h2>Esta es mi historia</h2>
+          <div class="editar">
+            <button><h4>Título</h4></button>
+            <button><img src="../img/perfil/editar.svg"></button>
+          </div>
+          <p class="instruction">Explica quién eres y porque te mereces vivir esta experiéncia única</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="photos-user">
+      <div class="row">
+        <h2>Este/a soy yo</h2>
+        <p class="instruction">Añade algunas fotos tuyas, de forma que la gente pueda conocerte mejor (sí tu quieres)</p>
+        <div class="photo">
+          <img src="../img/perfil/editar.svg">
+          <p class="mas">+</p>
+        </div>
+        <div class="photo">
+          <img src="../img/perfil/editar.svg">
+          <p class="mas">+</p>
+        </div>
+        <div class="photo">
+          <img src="../img/perfil/editar.svg">
+          <p class="mas">+</p>
+        </div>
+        <div class="photo">
+          <img src="../img/perfil/editar.svg">
+          <p class="mas">+</p>
+        </div>
 
       </div>
     </section>

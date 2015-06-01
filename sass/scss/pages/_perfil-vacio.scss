@@ -22,6 +22,21 @@
 
 .perfil-info{
 	float: left;
+
+	p:first-child{
+		margin-top: 10px;
+	}
+
+}
+
+.editar{
+	background-color: transparent;
+	width: 120px;
+
+	&:hover{
+			background-color: #F9627F;
+		}
+
 	img{
 		width: 15px;
 		display: inline-block;
@@ -37,20 +52,9 @@
 		margin: 0 auto
 
 	}
-	p:first-child{
-		margin-top: 10px;
-	}
-
 }
 
-.editar{
-	background-color: transparent;
-	width: 120px;
 
-	&:hover{
-			background-color: #F9627F;
-		}
-}
 
 .info-ranking-user{
 	float: right;
@@ -78,13 +82,104 @@
 		margin-bottom: -20px;
 	}
 }
+.secondary-menu{
+	background-color: #262651;
+	text-align: center;
+	padding: 1.25rem;
+		li{
+			display: inline-block;
+			list-style-type: none;
+			text-transform: uppercase;
+		}
+		li:first-child{
+			padding-right: 30px;
+		}
 
+		a{
+			color: #ffffff;
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			font-size: 0.875rem;
+
+			&:hover{
+				color: #F9627F;
+			}
+		}
+
+}
+.tu-perfil{
+	background-image: url(../../img/fondo1.jpg);
+}
 
 .perfil-video{
 	background-color: #25AAAD;
+	text-align: center;
+	color: #ffffff;
+	height: 360px;
+	padding-top: 2rem;
+
+	input[type="text"]{
+		max-width: 500px;
+		margin: 2.5rem auto 1.5rem;
+	}
+	li{
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	img{
+		width: 120px;
+	}
 }
 
-.perfil-descripcion4{
+.perfil-descripcion{
 	background-color: #1C1C49;
+	color: #ffffff;
+	height: 360px;
+	padding-top: 2rem;
+	.intrucciones{
+		background-color: transparent;
+		color: #939598;
+	}
 }
 
+
+.photos-user{
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.photo{
+	border: 3px solid #DEDDDD;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	margin-left: 10px;
+	position: relative;
+	color:#DEDDDD; 
+	&:hover{
+		background-color: #DEDDDD;
+		color: #ffffff;
+	}
+
+	img{
+		width: 15px;
+  		position: absolute;
+  			top: 5px;
+  			right: 5px;
+	}
+
+
+}
+
+.mas{
+	font-size: 100px;
+	margin: 0;
+	position: absolute;
+		top: 40%;
+		left: 0;
+		right: 0;
+
+}
