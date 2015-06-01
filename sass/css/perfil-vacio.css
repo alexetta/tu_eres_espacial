@@ -8483,8 +8483,7 @@ li.moneyActive {
     margin-top: 10px; }
 
 .editar {
-  background-color: transparent;
-  width: 120px; }
+  background-color: transparent; }
   .editar:hover {
     background-color: #F9627F; }
   .editar img {
@@ -8498,6 +8497,31 @@ li.moneyActive {
     background-color: transparent;
     padding: 0;
     margin: 0 auto; }
+
+.popup {
+  background-color: #ffffff;
+  display: none;
+  z-index: 1;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  box-shadow: 0px -1px 124px -35px black; }
+
+.ilustracion-btn {
+  width: 200px;
+  margin: 30px; }
+
+.perfil-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px; }
 
 .info-ranking-user {
   float: right;
@@ -8523,7 +8547,7 @@ li.moneyActive {
 .secondary-menu {
   background-color: #262651;
   text-align: center;
-  padding: 1.25rem; }
+  padding: 1.15rem; }
   .secondary-menu li {
     display: inline-block;
     list-style-type: none;
@@ -8538,6 +8562,43 @@ li.moneyActive {
     .secondary-menu a:hover {
       color: #F9627F; }
 
+.editar-perfil-info {
+  background-color: #ffffff;
+  width: 300px;
+  z-index: 1;
+  border-radius: 15px;
+  position: absolute;
+  top: 10rem;
+  left: 470px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.49);
+  display: none; }
+  .editar-perfil-info img {
+    width: 37px;
+    display: inline-block; }
+  .editar-perfil-info input[placeholder="URL"] {
+    display: inline-block;
+    width: 215px; }
+  .editar-perfil-info input[type="submit"] {
+    display: inline-block;
+    margin: 0;
+    padding-top: .5rem;
+    padding-bottom: .6rem; }
+  .editar-perfil-info form {
+    padding-top: 1rem; }
+
+.perfil-info-oculto {
+  display: none;
+  float: left; }
+  .perfil-info-oculto img {
+    width: 30px; }
+
+img.icon-ed {
+  width: 15px; }
+
 .tu-perfil {
   background-image: url(../../img/fondo1.jpg); }
 
@@ -8545,11 +8606,13 @@ li.moneyActive {
   background-color: #25AAAD;
   text-align: center;
   color: #ffffff;
-  height: 360px;
+  height: 400px;
   padding-top: 2rem; }
   .perfil-video input[type="text"] {
     max-width: 500px;
     margin: 2.5rem auto 1.5rem; }
+  .perfil-video input[type="submit"] {
+    margin-bottom: 3rem; }
   .perfil-video li {
     list-style-type: none;
     display: inline-block; }
@@ -8559,7 +8622,7 @@ li.moneyActive {
 .perfil-descripcion {
   background-color: #1C1C49;
   color: #ffffff;
-  height: 360px;
+  height: 400px;
   padding-top: 2rem; }
   .perfil-descripcion .intrucciones {
     background-color: transparent;

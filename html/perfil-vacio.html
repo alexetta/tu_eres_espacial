@@ -76,8 +76,8 @@
             <img src="../img/user.svg">
           </div>
           <div class="perfil-info">
-            <h2>Nombre del Usuario</h2>
-            <div class="editar">
+            <h2>Juan Martín</h2>
+            <div class="editar ed-info">
               <button><h4>¿Quien eres?</h4></button>
               <button><img src="../img/perfil/editar.svg"></button>
             </div>
@@ -85,7 +85,18 @@
             <p>Nací el día...</p>
             <p>Sígueme en...</p>
           </div>
-        </div>
+
+          <div class="perfil-info-oculto">
+            <h2>Juan Martín</h2>
+            <div class="editar ed-info">
+              <button><h4>Un aventurero</h4></button>
+              <button><img class="icon-ed" src="../img/perfil/editar.svg"></button>
+            </div>
+            <p>Soy de Barcelona</p>
+            <p>Nací el día 23/10/1989</p>
+            <p>Sígueme en...<img src="../img/perfil/twitter.svg" alt="icono-twitter"><img src="../img/perfil/google.svg" alt="icono-google+"></p>
+          </div>
+        </div>  
 
         <div class="info-ranking-user">
           <p>0</p>
@@ -100,6 +111,25 @@
         </div>
 
       </div>
+      <div class="editar-perfil-info">
+          <form>
+            <label>Describe quién eres</label>
+            <input type="text" placeholder="Describe cómo eres">
+            <label>Ciudad</label>
+            <input type="text" placeholder="¿De dónde eres?">
+            <label>Fecha de nacimiento</label>
+            <input type="text" placeholder="¿Cuándo naciste?">
+            <img src="../img/perfil/facebook.svg" alt="icono-facebook">
+            <input class="smo" type="text" placeholder="URL">
+            <img src="../img/perfil/twitter.svg" alt="icono-twitter">
+            <input class="smo" type="text" placeholder="URL">
+            <img src="../img/perfil/google.svg" alt="icono-google+">
+            <input class="smo" type="text" placeholder="URL">
+            <input type="submit" class="cancel-info white_btn round button" value="Cancel">
+            <input type="submit" class="pink_btn round button"value="Guardar">
+          </form>
+
+        </div>
     </section>
     <section class="secondary-menu">
       <div class="row">
@@ -127,12 +157,21 @@
         </div>
         <div class="large-4 medium-4 columns perfil-descripcion">
           <h2>Esta es mi historia</h2>
-          <div class="editar">
+          <div class="editar ed-descripcion">
             <button><h4>Título</h4></button>
             <button><img src="../img/perfil/editar.svg"></button>
           </div>
           <p class="instruction">Explica quién eres y porque te mereces vivir esta experiéncia única</p>
         </div>
+      </div>
+
+      <div class="popup">
+        <a href=""><img class="perfil-close" src="../img/perfil/cruz.svg"></a>
+        <h2>¿Preparado para despegar?</h2>
+        <img class="ilustracion-btn" src="../img/perfil/boton.svg">
+        <p>Estás a punto de subir tú vídeo  a nuestra plataforma. Cuando pulses el siguiente botón ya no habrá marcha atrás. ¡Que la fuerza te acompañe!</p>
+        <a href="" class="round button pink_btn">Enviar</a>
+
       </div>
     </section>
 

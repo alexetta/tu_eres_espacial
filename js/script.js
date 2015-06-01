@@ -159,6 +159,33 @@ $( document ).ready(function() {
       $('.ultimo').hide();
     });
 
+/////
+    
+    $('.ed-info').click(function(event) {
+      $('.editar-perfil-info').show();
+    });
+
+    $('input[value="Cancel"]').click(function(event) {
+      $('.editar-perfil-info').hide();
+    });
+
+    $('input[value="Guardar"]').click(function(event) {
+      $('.editar-perfil-info').hide();
+      $('.perfil-info').hide();
+      $('.perfil-info-oculto').show();
+    });
+
+
+    $('.perfil-close').click(function(event) {
+      $('.popup').hide();
+    });
+
+    $('.perfil-video input[value="ENVIAR"]').click(function(event) {
+      $('.popup').show();
+    });
+
+
+
 
 
 
