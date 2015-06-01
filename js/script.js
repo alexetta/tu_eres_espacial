@@ -153,6 +153,7 @@ $( document ).ready(function() {
 
     $('.btn_visto').click(function(event) {
       $('.btn_visto').addClass('btn-active');
+      $('.oculto').show();
       $('.visto').show();
       $('.votado').hide();
       $('.ultimo').hide();

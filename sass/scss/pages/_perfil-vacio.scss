@@ -1,0 +1,90 @@
+.perfil-head{
+	background-image: url(../../img/fondo1.jpg);
+	color: #ffffff;
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+
+	p{
+		margin: 0;
+	}
+}
+
+.imagen-perfil{
+	width: 175px;
+	border-radius: 100px;
+	background-color: #262651;
+	float: left;
+	margin-right: 30px;
+	 img{
+	 	width: 175px;
+	 }
+}
+
+.perfil-info{
+	float: left;
+	img{
+		width: 15px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+	h4{
+		display: inline-block;
+		margin: 0 auto;
+	}
+	button{
+		background-color:transparent;
+		padding: 0;
+		margin: 0 auto
+
+	}
+	p:first-child{
+		margin-top: 10px;
+	}
+
+}
+
+.editar{
+	background-color: transparent;
+	width: 120px;
+
+	&:hover{
+			background-color: #F9627F;
+		}
+}
+
+.info-ranking-user{
+	float: right;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 0 20px 20px;
+	position: relative;
+  		top: 3rem;
+
+	p{
+		display: inline-block;
+		font-size: 20px;
+	}
+	img{
+		width: 30px;
+		display: inline-block;
+		margin-right: 5px;
+	}
+
+	hr{
+		height: 45px;
+		display: inline-block;
+		margin-left: 20px;
+ 		margin-right: 20px;
+		margin-bottom: -20px;
+	}
+}
+
+
+.perfil-video{
+	background-color: #25AAAD;
+}
+
+.perfil-descripcion4{
+	background-color: #1C1C49;
+}
+
