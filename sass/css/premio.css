@@ -8356,9 +8356,6 @@ li.moneyActive {
   .paso img {
     width: 80px; }
 
-.participarBases {
-  position: absolute; }
-
 .uno, .tres, .cinco {
   background-color: #E6E6E6; }
 
@@ -8944,18 +8941,7 @@ input[name="reg_google"] {
     display: inline-block; }
 
   .burger img {
-    font-weight: 300; }
-
-  /*Bases*/
-  .headBases img {
-    position: absolute;
-    left: 5rem;
-    width: 350px; }
-
-  .instrucciones {
-    height: 325px; }
-    .instrucciones .uno, .instrucciones .tres, .instrucciones .cinco {
-      height: 325px; } }
+    font-weight: 300; } }
 /* 768px */
 @media only screen and (max-width: 48em) {
   .home {
@@ -8966,46 +8952,6 @@ input[name="reg_google"] {
   .recaudado, .dias {
     text-align: center;
     padding: 0; } }
-/* 640 px */
-@media only screen and (max-width: 40em) {
-  .headBases {
-    height: 400px; }
-    .headBases img {
-      position: absolute;
-      bottom: -3rem;
-      left: 2rem;
-      width: 250px; }
-    .headBases .intro {
-      position: absolute;
-      left: 25%;
-      top: 20%; }
-
-  .paso {
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 0; }
-    .paso img {
-      width: 40px;
-      display: inline-block; }
-
-  .instrucciones {
-    height: 400px; }
-    .instrucciones .uno, .instrucciones .dos, .instrucciones .tres, .instrucciones .cuatro, .instrucciones .cinco {
-      height: 80px;
-      padding: 15px; }
-      .instrucciones .uno img, .instrucciones .dos img, .instrucciones .tres img, .instrucciones .cuatro img, .instrucciones .cinco img {
-        display: inline-block;
-        margin: 0 10px; }
-      .instrucciones .uno p, .instrucciones .dos p, .instrucciones .tres p, .instrucciones .cuatro p, .instrucciones .cinco p {
-        display: inline-block; }
-      .instrucciones .uno h5, .instrucciones .dos h5, .instrucciones .tres h5, .instrucciones .cuatro h5, .instrucciones .cinco h5 {
-        display: inline-block;
-        font-family: 'Lato', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-        line-height: 24px;
-        margin: 0; } }
 @media only screen and (max-width: 32.188em) {
   .pictures {
     padding: 1rem; } }
@@ -9020,19 +8966,6 @@ input[name="reg_google"] {
 
   .recaudado, .dias {
     text-align: center;
-    padding: 0; }
+    padding: 0; } }
 
-  /*bases*/
-  .headBases {
-    height: 400px; }
-    .headBases img {
-      position: absolute;
-      bottom: -3rem;
-      left: 2rem;
-      width: 250px; }
-    .headBases .intro {
-      position: absolute;
-      left: 25%;
-      top: 20%; } }
-
-/*# sourceMappingURL=bases.css.map */
+/*# sourceMappingURL=premio.css.map */

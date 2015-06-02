@@ -17,6 +17,22 @@
   .burger img{
     font-weight: 300;
   }
+
+  /*Bases*/
+
+  .headBases img{
+    position: absolute;
+      left:5rem;
+    width: 350px;
+
+  }
+
+  .instrucciones{
+    height: 325px;
+    .uno, .tres, .cinco{
+      height: 325px;
+    }
+  }
 }
 /* 768px */
 @media only screen and (max-width: 48em){
@@ -32,6 +48,60 @@
     padding: 0;
   }
 }
+
+/* 640 px */
+@media only screen and (max-width: 40em){
+  .headBases{
+    height: 400px;
+    img{
+      position: absolute;
+        bottom: -3rem;
+        left:2rem;
+      width: 250px;
+    }
+    .intro{
+      position: absolute;
+        left: 25%;
+        top: 20%;
+    }
+  }
+  .paso{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0;
+    img{
+      width: 40px;
+      display: inline-block;
+    }
+  }
+
+  .instrucciones{
+    height: 400px;
+    .uno, .dos, .tres, .cuatro, .cinco{
+      height: 80px;
+      padding:15px;
+
+      img{
+        display: inline-block;
+        margin: 0 10px;
+      }
+      p{
+        display: inline-block;
+      }
+
+      h5{
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0;
+      }
+    }
+  }
+}
+
 
 @media only screen and (max-width: 32.188em){
 
@@ -57,4 +127,21 @@
     text-align: center;
     padding: 0;
   }
+  /*bases*/
+  .headBases{
+    height: 400px;
+    img{
+      position: absolute;
+        bottom: -3rem;
+        left:2rem;
+      width: 250px;
+    }
+    .intro{
+      position: absolute;
+        left: 25%;
+        top: 20%;
+    }
+  }
+  
 }
+

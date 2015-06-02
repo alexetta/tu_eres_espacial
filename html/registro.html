@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tu Eres Espacial - Bases</title>
-    <link rel="stylesheet" href="../sass/css/bases.css" /
+    <title>Tu Eres Espacial - Registro</title>
+    <link rel="stylesheet" href="../sass/css/registro.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
     <script src="../js/vendor/modernizr.js"></script>
@@ -61,116 +61,56 @@
           <input name="password" type="password" placeholder="Enter your password">
           <p class="link">¿Has olvidado tu contraseña</p>
           <input class="pink_btn" name="login" type="submit" value="ACCEDER"><br>
-          <input type="checkbox"> Mantenerme registrado
+          <p><input type="checkbox"> Mantenerme registrado</p>
           </form>
-          <p>¿Aún no tienes cuenta? <a href="registro.html" class="link">Regístrate</a></p>
+          <p>¿Aún no tienes cuenta? <a href="#" class="link">Regístrate</a></p>
   
       </div>
     </header> 
 
 
-    <article class="headBases">
-      <img src="../img/bases.png">
-      <div class="intro">
-        <h1>É aquí las reglas del juego, <br> toma nota y participa</h1>
-        <a href="registro.html" class="pink_btn round button">Participa</a>
+    <article class="registro">
+      <div class="row">
+        <div class="large-6 medium-8 small-10 large-centered medium-centered small-centered columns">
+          <h2>Wheea! Ya estás un paso mas cerca de salir a la estratosfera!</h2>
+          <hr>
+          <p>Primero de todo necesitamos que crees una cuenta de usuario. Puedes hacerla introduciendo tus datos o registrándote automáticamente con facebook.</p>
+        </div>
+        
+        <form class="large-6 medium-8 small-10 large-centered medium-centered small-centered columns">
+          <label>Regístrate con Facebook</label>
+          <input type="submit" name="reg_facebook" value="Regístrate con Facebook">
+          <label>Regístrate con Google Plus</label>
+          <input type="submit" name="reg_google" value="Regístrate con Google+">
+          <p>O sí lo prefieres...</p>
+          <label>Nombre</label>
+          <input type="text" placeholder="Tu nombre">
+          <label>Ciudad</label>
+          <input type="email" placeholder="Ciudad">
+          <label>Email</label>
+          <input type="tel" placeholder="Email">
+          <label>Contraseña</label>
+          <input type="password" placeholder="Contraseña">
+          <label>Confirmar contraseña</label>
+          <input type="password" placeholder="Confirmar contraseña">
+          <a href="perfil-vacio.html" class="pink_btn round button registrar-btn">Registrar</a>
+          <p><input type="checkbox" name="vehicle" value="Mantenerme regístrado"> Mantenerme regístrado</p>
+        </form>
+        <p class="instruction">Regístrandote estás aceptando nuestra política de privacidad</p>
+      </div>
+
+      <div class="registro-popup">
+        <a href=""><img class="registro-close" src="../img/perfil/cruz.svg"></a>
+        <h2>Ya estamos listos!</h2>
+        <img class="ilustracion-cohete" src="../img/registro/il-cohete.svg">
+        <p>¡Parece que todo ha ido bien! Solo te queda confirmar tu dirección de correo electrónico.
+        Te hemos enviado un mail con el link de confirmación.</p>
+        <p class="destacado">¡Que la fuerza te acompañe!</p>
+        <a href="" class="round button pink_btn">Visita tu perfil</a>
+        <p class="instruction">Echa un vistazo a las <a href="" class="link">Bases del concurso</a></p>
       </div>
     </article>
 
-    <section class="instrucciones clearfix">
-      <div class="clearfix">
-
-        <div class="paso uno">
-          <p class="destacado">1</p>
-          <img src="../img/bases/1.svg">
-          <h5>Graba tu vídeo como quieras</h5>
-        </div>
-
-        <div class="paso dos">
-          <p class="destacado">2</p>
-          <img src="../img/bases/2.svg">
-          <h5>Registráte en nuestra plataforma</h5>
-        </div>
-
-        <div class="paso tres">
-          <p class="destacado">3</p>
-          <img src="../img/bases/3.svg">
-          <h5>Sube tu video y envíanos el link</h5>
-        </div>
-
-        <div class="paso cuatro">
-          <p class="destacado">4</p>
-          <img src="../img/bases/4.svg">
-          <h5>Comparte el vídeo con tus amigos</h5>
-        </div>
-
-        <div class="paso cinco">
-          <p class="destacado">5</p>
-          <img src="../img/bases/5.svg">
-          <h5>Ganará el que sea más votado</h5>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="bases">
-      <a href="" class="link">Descarga las bases en .pdf</a>
-      <div class="row">
-        <div class="textBases large-8 medium-8 columns">
-          <div>
-            <h2>Quién puede participar?</h2>
-            <p>Cualquier persona <strong>mayor de 18 años</strong> con ganas de compartir una experiencia con nosotros. Si alguna vez te has preguntado como se ve la tierra desde ahí arriba, esta es tu oportunidad.</p>
-          </div>
-
-          <div class="basesComo">
-            <h2>Cómo participar</h2>
-            <p>La temática es simple. Ponte un casco o sucedáneo en la cabeza y <strong>graba un vídeo de 30 segundos</strong> demostrando que eres capaz de hacer para ir al espacio. La creatividad la pones tú. Una vez tengas el vídeo hecho solo tienes que <strong>registrarte en nuestra plataforma e introducir tu link en el formulario de registro</strong>. Tu vídeo será publicado en nuestra plataforma y dependerá de tu originalidad conseguir los votos de los demás usuarios. Puedes aprovechar las redes sociales como facebook o twitter para promocionar tu obra y conseguir que tus amigos te voten. El autor del vídeo más votado al terminar el periodo del concurso será premiado con un viaje al espacio en la nave Virgin Galactic.</p> 
-
-            <p>Sólo admitiremos vídeos de los siguientes plataformas:</p>
-
-            <img src="../img/bases/youtube.svg">
-            <img src="../img/bases/vimeo.svg">
-            <img src="../img/bases/instagram.svg">
-          </div>
-
-          <div>
-            <h2>Temática</h2>
-            <p>Ya te lo hemos dicho. Ponte <strong>un casco o sucedáneo en la cabeza</strong> y aprovecha  todo tu potencial creativo para hacer el vídeo más original. Estaría bien que tu temática girara entorno al espacio, pero no queremos minar vuestra capacidad creativa con condiciones, así que feel free!</p>
-          </div>
-
-          <div class="premio">
-            <h2>El premio</h2>
-            <p>El vídeo más votado será el afortunado en subirse a la nave de Virgin Galactic y vivir una experiencia única e inolvidable,</p>
-          </div>
-
-          <div>
-            <h2>Duración del concurso</h2>
-            <p>El concurso empezará el <strong>30 de Marzo del 2015</strong>. El término de participación se cerrará el <strong>15 de Septiembre de 2015</strong>. Dejaremos dos semanas en las que solo admitiremos votaciones hasta el 30 de septiembre, cuando conoceremos el Nombre de los ganadores!</p>
-          </div>
-
-        </div>
-
-        <div class="large-4 medium-4 columns">
-          <div class="participarBases">
-            <h2>Ya sabes todo lo que necesitas para participar?</h2>
-            <a href="registro.html" class="round button pink_btn">¡Participa!</a>
-            <p class="destacado">Tienes aún alguna duda sobre como participar?</p>
-            <p>Escríbenos un mail a <a href="mailto:tueresespacial@gmail.com" class="link">info@tuerespacial </a>y te responderemos en la mayor brevedad de tiempo posible</p>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="sponsors">
-        <p class="destacado">Juntos lo hacemos posible</p>
-        <div class="row">
-          <img src="../img/bases/ub.svg">
-          <img src="../img/bases/temas.svg">
-          <img src="../img/bases/ub.svg">
-        </div>
-        <a href="http://goteo.org/" class="link">¿Quieres ser sponsor?</a>
-      </div>
-    </section>
 
     <footer>
         <div class="row">
@@ -181,7 +121,7 @@
             <hr>
             <h4>Email de contacto</h4>
             <img src="">
-            <a href="mailto:tueresespacial@gmail.com">tueresespacial@gmail.com</a>
+            <a href="">tueresespacial@gmail.com</a>
             <hr>
             <a href="">Faq</a>
             <a href="">Participa</a>
@@ -232,21 +172,12 @@
     <script>
       $(document).foundation();
 
-      $('.menu-toggle a').click(function(event) {
-        event.preventDefault();
-        if($('.burger img').is(':visible')) {
-          $('nav').show();
-          $('.burger img').hide();
-          $('.close').show();
-        } else {
-          $('nav').hide();
-          $('.burger img').show();
-          $('.close').hide();
-        }
+      $('input[value="Registrar"]').click(function(event) {
+        $('.registro-popup').show();
       });
 
-      $('.login_btn').click(function(event) {
-        $('.form_registro').show();
+      $('.registro-close').click(function(event) {
+        $('.registro-popup').hide();
       });
 
     </script>

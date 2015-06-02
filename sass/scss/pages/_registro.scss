@@ -1,0 +1,73 @@
+.registro{
+	background-image: url(../../img/fondo1.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100% ;
+  	background-color: #101023;
+  	text-align: center;
+  	padding: 7rem 0 5rem;
+  	color: #ffffff;
+
+  	hr{
+  		width:200px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+  	}
+}
+
+
+input[name="reg_facebook"], input[name="reg_google"]{
+	width: 100%;
+	border-radius: 1000px;
+	border:0;
+	padding: 10px 25px;
+	margin-bottom: 1rem;
+}
+
+input[name="reg_facebook"]{
+	background:#3b579b url(../../img/registro/googleplus.svg) no-repeat;
+	background-size: 20px auto;
+	background-position: top 8px left 20px;
+	&:hover{
+		background-color: #23386C;
+	}
+}
+
+input[name="reg_google"]{
+	background:#f44336 url(../../img/registro/facebook.svg) no-repeat;
+	background-size: 20px auto;
+	background-position: top 8px left 20px;
+	&:hover{
+		background-color: #BA3228;
+	}
+}
+
+
+.registro-popup{
+	max-width: 600px;
+	min-width: 280px;
+	background-color: #ffffff;
+	border-radius: 15px;
+	color: #222222;
+	display: none;
+	margin: 0 auto;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
+		webkit-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 37px -5px rgba(0,0,0,0.75);
+}
+
+.ilustracion-cohete{
+	width: 200px;
+}
+
+.registro-close{
+	width: 30px;
+	position: absolute;
+		top:20px;
+		right: 20px;
+
+}

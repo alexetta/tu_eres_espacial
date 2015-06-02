@@ -87,12 +87,10 @@ $( document ).ready(function() {
     function fixDiv() {
         var $cache = $('.participarBases');
 
-        if ($(window).scrollTop() > 757 && $(window).scrollTop() < 1607)
+        if ($(window).scrollTop() > 757 && $(window).scrollTop() < 1607 )
           $cache.css({
             'position': 'fixed',
             'top': '100px',
-            // 'left': '792.671875px',
-            // 'display':'block',
             'float':'right',
             'max-width':'303px'
           });
