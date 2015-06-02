@@ -7772,6 +7772,13 @@ nav a {
 nav a:hover {
   color: #F9627F; }
 
+.pagina-actual {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #F9627F;
+  text-transform: uppercase; }
+
 .login_btn, .registro_btn {
   color: #F9627F; }
 
@@ -7824,6 +7831,9 @@ footer hr {
 
 .introduction h1 {
   color: #0F0F38; }
+
+.nav-active {
+  color: #F9627F; }
 
 /* Tipografia */
 h1 {
@@ -7938,7 +7948,8 @@ a {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-    line-height: 22px; }
+    line-height: 22px;
+    color: #939598; }
 
   small {
     font-family: 'Lato', sans-serif;
@@ -8345,6 +8356,9 @@ li.moneyActive {
   .paso img {
     width: 80px; }
 
+.participarBases {
+  position: absolute; }
+
 .uno, .tres, .cinco {
   background-color: #E6E6E6; }
 
@@ -8456,6 +8470,465 @@ li.moneyActive {
     padding-top: .4rem;
     padding-bottom: .525rem; }
 
+.perfil-head {
+  background-image: url(../../img/fondo1.jpg);
+  color: #ffffff;
+  padding-top: 6rem;
+  padding-bottom: 3rem; }
+  .perfil-head p {
+    margin: 0; }
+
+.imagen-perfil {
+  width: 175px;
+  border-radius: 100px;
+  background-color: #262651;
+  float: left;
+  margin-right: 30px; }
+  .imagen-perfil img {
+    width: 175px; }
+
+.perfil-info {
+  float: left; }
+  .perfil-info p:first-child {
+    margin-top: 10px; }
+
+.editar {
+  background-color: transparent; }
+  .editar:hover {
+    background-color: #F9627F; }
+  .editar img {
+    width: 15px;
+    display: inline-block;
+    margin: 0 auto; }
+  .editar h4 {
+    display: inline-block;
+    margin: 0 auto; }
+  .editar button {
+    background-color: transparent;
+    padding: 0;
+    margin: 0 auto; }
+
+.popup {
+  background-color: #ffffff;
+  display: none;
+  z-index: 1;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  box-shadow: 0px -1px 124px -35px black; }
+
+.ilustracion-btn {
+  width: 200px;
+  margin: 30px; }
+
+.perfil-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px; }
+
+.info-ranking-user {
+  float: right;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0 20px 20px;
+  position: relative;
+  top: 3rem; }
+  .info-ranking-user p {
+    display: inline-block;
+    font-size: 20px; }
+  .info-ranking-user img {
+    width: 30px;
+    display: inline-block;
+    margin-right: 5px; }
+  .info-ranking-user hr {
+    height: 45px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -20px; }
+
+.secondary-menu {
+  background-color: #262651;
+  text-align: center;
+  padding: 1.15rem; }
+  .secondary-menu li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase; }
+  .secondary-menu li:first-child {
+    padding-right: 30px; }
+  .secondary-menu a {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem; }
+    .secondary-menu a:hover {
+      color: #F9627F; }
+
+.editar-perfil-info {
+  background-color: #ffffff;
+  width: 300px;
+  z-index: 1;
+  border-radius: 15px;
+  position: absolute;
+  top: 10rem;
+  left: 470px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.49);
+  display: none; }
+  .editar-perfil-info img {
+    width: 37px;
+    display: inline-block; }
+  .editar-perfil-info input[placeholder="URL"] {
+    display: inline-block;
+    width: 215px; }
+  .editar-perfil-info input[type="submit"] {
+    display: inline-block;
+    margin: 0;
+    padding-top: .5rem;
+    padding-bottom: .6rem; }
+  .editar-perfil-info form {
+    padding-top: 1rem; }
+
+.perfil-info-oculto {
+  display: none;
+  float: left; }
+  .perfil-info-oculto img {
+    width: 30px; }
+
+img.icon-ed {
+  width: 15px; }
+
+.tu-perfil {
+  background-image: url(../../img/fondo1.jpg); }
+
+.perfil-video {
+  background-color: #25AAAD;
+  text-align: center;
+  color: #ffffff;
+  height: 400px;
+  padding-top: 2rem; }
+  .perfil-video input[type="text"] {
+    max-width: 500px;
+    margin: 2.5rem auto 1.5rem; }
+  .perfil-video input[type="submit"] {
+    margin-bottom: 3rem; }
+  .perfil-video li {
+    list-style-type: none;
+    display: inline-block; }
+  .perfil-video img {
+    width: 120px; }
+
+.perfil-descripcion {
+  background-color: #1C1C49;
+  color: #ffffff;
+  height: 400px;
+  padding-top: 2rem; }
+  .perfil-descripcion .intrucciones {
+    background-color: transparent;
+    color: #939598; }
+
+.photos-user {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.photo {
+  border: 3px solid #DEDDDD;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  color: #DEDDDD; }
+  .photo:hover {
+    background-color: #DEDDDD;
+    color: #ffffff; }
+  .photo img {
+    width: 15px;
+    position: absolute;
+    top: 5px;
+    right: 5px; }
+
+.mas {
+  font-size: 100px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0; }
+
+.perfil-head {
+  background-image: url(../../img/fondo1.jpg);
+  color: #ffffff;
+  padding-top: 6rem;
+  padding-bottom: 3rem; }
+  .perfil-head p {
+    margin: 0; }
+
+.imagen-perfil-gisela {
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  background-color: #262651;
+  float: left;
+  margin-right: 30px;
+  overflow: hidden; }
+  .imagen-perfil-gisela img {
+    width: 175px; }
+
+.perfil-info {
+  float: left; }
+  .perfil-info p:first-child {
+    margin-top: 10px; }
+
+.perfil-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px; }
+
+.info-ranking-user {
+  float: right;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0 20px 20px;
+  position: relative;
+  top: 3rem; }
+  .info-ranking-user p {
+    display: inline-block;
+    font-size: 20px; }
+  .info-ranking-user img {
+    width: 30px;
+    display: inline-block;
+    margin-right: 5px; }
+  .info-ranking-user hr {
+    height: 45px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -20px; }
+
+.secondary-menu {
+  background-color: #262651;
+  text-align: center;
+  padding: 1.15rem; }
+  .secondary-menu li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase; }
+  .secondary-menu li:first-child {
+    padding-right: 30px; }
+  .secondary-menu a {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem; }
+    .secondary-menu a:hover {
+      color: #F9627F; }
+
+.editar-perfil-info {
+  background-color: #ffffff;
+  width: 300px;
+  z-index: 1;
+  border-radius: 15px;
+  position: absolute;
+  top: 10rem;
+  left: 470px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.49);
+  display: none; }
+  .editar-perfil-info img {
+    width: 37px;
+    display: inline-block; }
+  .editar-perfil-info input[placeholder="URL"] {
+    display: inline-block;
+    width: 215px; }
+  .editar-perfil-info input[type="submit"] {
+    display: inline-block;
+    margin: 0;
+    padding-top: .5rem;
+    padding-bottom: .6rem; }
+  .editar-perfil-info form {
+    padding-top: 1rem; }
+
+.perfil-info-oculto {
+  display: none;
+  float: left; }
+  .perfil-info-oculto img {
+    width: 30px; }
+
+img.icon-ed {
+  width: 15px; }
+
+.tu-perfil {
+  background-image: url(../../img/fondo1.jpg); }
+
+.perfil-video-gisela {
+  background-color: #000;
+  text-align: center;
+  color: #ffffff;
+  height: 400px;
+  padding-top: 0rem; }
+  .perfil-video-gisela input[type="text"] {
+    max-width: 500px;
+    margin: 2.5rem auto 1.5rem; }
+  .perfil-video-gisela input[type="submit"] {
+    margin-bottom: 3rem; }
+  .perfil-video-gisela li {
+    list-style-type: none;
+    display: inline-block; }
+  .perfil-video-gisela img {
+    width: 120px; }
+
+.perfil-descripcion {
+  background-color: #0C0C2D;
+  color: #ffffff;
+  height: 400px;
+  padding-top: 2rem; }
+  .perfil-descripcion .intrucciones {
+    background-color: transparent;
+    color: #939598; }
+
+.photos-user {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.photo {
+  border: 3px solid #DEDDDD;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  color: #DEDDDD; }
+  .photo:hover {
+    background-color: #DEDDDD;
+    color: #ffffff; }
+  .photo img {
+    width: 15px;
+    position: absolute;
+    top: 5px;
+    right: 5px; }
+
+.mas {
+  font-size: 100px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0; }
+
+.pg-premio {
+  background-image: url(../../img/fondo1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 3rem; }
+
+.logo-virgin {
+  margin: 2rem 0; }
+
+.nave {
+  box-shadow: 0px 20px 81px 19px rgba(0, 0, 0, 0.54);
+  box-shadow: inset 0px 20px 81px 19px rgba(0, 0, 0, 0.54); }
+
+.instrucciones-premio img {
+  height: 200px; }
+
+.instrucciones-premio {
+  font-weight: 300;
+  padding: 3rem 0; }
+
+.pr-participar {
+  text-align: center; }
+  .pr-participar a {
+    display: block;
+    max-width: 300px;
+    margin: 1.5rem auto; }
+
+.pr-crowfunding {
+  background-color: #ffffff;
+  padding: 3rem 0;
+  text-align: center; }
+
+.registro {
+  background-image: url(../../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-color: #101023;
+  text-align: center;
+  padding: 7rem 0 5rem;
+  color: #ffffff; }
+  .registro hr {
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+input[name="reg_facebook"], input[name="reg_google"] {
+  width: 100%;
+  border-radius: 1000px;
+  border: 0;
+  padding: 10px 25px;
+  margin-bottom: 1rem; }
+
+input[name="reg_facebook"] {
+  background: #3b579b url(../../img/registro/googleplus.svg) no-repeat;
+  background-size: 20px auto;
+  background-position: top 8px left 20px; }
+  input[name="reg_facebook"]:hover {
+    background-color: #23386C; }
+
+input[name="reg_google"] {
+  background: #f44336 url(../../img/registro/facebook.svg) no-repeat;
+  background-size: 20px auto;
+  background-position: top 8px left 20px; }
+  input[name="reg_google"]:hover {
+    background-color: #BA3228; }
+
+.registro-popup {
+  max-width: 600px;
+  min-width: 280px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: #222222;
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0px 0px 37px -5px rgba(0, 0, 0, 0.75);
+  webkit-box-shadow: 0px 0px 37px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 37px -5px rgba(0, 0, 0, 0.75); }
+
+.ilustracion-cohete {
+  width: 200px; }
+
+.registro-close {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px; }
+
 @media only screen and (max-width: 56.25em) {
   nav {
     background-color: #101023;
@@ -8471,7 +8944,29 @@ li.moneyActive {
     display: inline-block; }
 
   .burger img {
-    font-weight: 300; } }
+    font-weight: 300; }
+
+  /*Bases*/
+  .headBases img {
+    position: absolute;
+    left: 5rem;
+    width: 350px; }
+
+  .instrucciones {
+    height: 325px; }
+    .instrucciones .uno, .instrucciones .tres, .instrucciones .cinco {
+      height: 325px; }
+
+  /*galeria*/
+  .galaxia-imgUser {
+    display: none; }
+
+  .galaxia-name {
+    overflow: hidden;
+    max-height: 22px;
+    width: 95px;
+    white-space: nowrap;
+    text-overflow: ellipsis; } }
 /* 768px */
 @media only screen and (max-width: 48em) {
   .home {
@@ -8482,6 +8977,46 @@ li.moneyActive {
   .recaudado, .dias {
     text-align: center;
     padding: 0; } }
+/* 640 px */
+@media only screen and (max-width: 40em) {
+  .headBases {
+    height: 400px; }
+    .headBases img {
+      position: absolute;
+      bottom: -3rem;
+      left: 2rem;
+      width: 250px; }
+    .headBases .intro {
+      position: absolute;
+      left: 25%;
+      top: 20%; }
+
+  .paso {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0; }
+    .paso img {
+      width: 40px;
+      display: inline-block; }
+
+  .instrucciones {
+    height: 400px; }
+    .instrucciones .uno, .instrucciones .dos, .instrucciones .tres, .instrucciones .cuatro, .instrucciones .cinco {
+      height: 80px;
+      padding: 15px; }
+      .instrucciones .uno img, .instrucciones .dos img, .instrucciones .tres img, .instrucciones .cuatro img, .instrucciones .cinco img {
+        display: inline-block;
+        margin: 0 10px; }
+      .instrucciones .uno p, .instrucciones .dos p, .instrucciones .tres p, .instrucciones .cuatro p, .instrucciones .cinco p {
+        display: inline-block; }
+      .instrucciones .uno h5, .instrucciones .dos h5, .instrucciones .tres h5, .instrucciones .cuatro h5, .instrucciones .cinco h5 {
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0; } }
 @media only screen and (max-width: 32.188em) {
   .pictures {
     padding: 1rem; } }
@@ -8496,6 +9031,19 @@ li.moneyActive {
 
   .recaudado, .dias {
     text-align: center;
-    padding: 0; } }
+    padding: 0; }
+
+  /*bases*/
+  .headBases {
+    height: 400px; }
+    .headBases img {
+      position: absolute;
+      bottom: -3rem;
+      left: 2rem;
+      width: 250px; }
+    .headBases .intro {
+      position: absolute;
+      left: 25%;
+      top: 20%; } }
 
 /*# sourceMappingURL=galeria.css.map */

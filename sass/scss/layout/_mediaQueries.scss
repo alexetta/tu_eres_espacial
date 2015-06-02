@@ -33,6 +33,20 @@
       height: 325px;
     }
   }
+  /*galeria*/
+
+  .galaxia-imgUser{
+    display: none;
+  }
+
+  .galaxia-name{
+    overflow: hidden;
+    max-height: 22px;
+    width: 95px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+  }
+
 }
 /* 768px */
 @media only screen and (max-width: 48em){
