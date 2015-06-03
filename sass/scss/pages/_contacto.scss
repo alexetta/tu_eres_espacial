@@ -1,0 +1,21 @@
+.contact{
+	background-image: url(../../img/fondo1.jpg);
+	background-position: bottom;
+	background-color: #101023;
+	text-align: center;
+	padding: 7rem 0 5rem;
+	color: #ffffff;
+
+	input [value="Enviar"]{
+		border: 0;
+		border-radius: 100px;
+		min-width: 150px;
+		
+	}
+}
+
+.contactDetails p{
+	display: inline-block;
+	padding-left: 40px;
+
+}

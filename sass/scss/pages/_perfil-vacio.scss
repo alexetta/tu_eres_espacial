@@ -1,0 +1,263 @@
+.perfil-head{
+	background-image: url(../../img/fondo1.jpg);
+	color: #ffffff;
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+
+	p{
+		margin: 0;
+	}
+}
+
+.imagen-perfil{
+	width: 175px;
+	border-radius: 100px;
+	background-color: #262651;
+	float: left;
+	margin-right: 30px;
+	 img{
+	 	width: 175px;
+	 }
+}
+
+.perfil-info{
+	float: left;
+
+	p:first-child{
+		margin-top: 10px;
+	}
+
+}
+
+.editar{
+	background-color: transparent;
+
+	&:hover{
+			background-color: #F9627F;
+		}
+
+	img{
+		width: 15px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+	h4{
+		display: inline-block;
+		margin: 0 auto;
+	}
+	button{
+		background-color:transparent;
+		padding: 0;
+		margin: 0 auto
+
+	}
+}
+
+.popup{
+	background-color: #ffffff;
+	display: none;
+	z-index: 1;
+	padding: 2rem;
+	border-radius: 20px;
+	width: 600px;
+	text-align: center;
+	margin:0 auto;
+	position: absolute;
+		top: 100px;
+		left: 0;
+		right: 0;
+	box-shadow: 0px -1px 124px -35px rgba(0,0,0,1);
+
+}
+
+.ilustracion-btn{
+	width: 200px;
+	margin: 30px;
+}
+	
+
+.perfil-close{
+	position: absolute;
+		top: 30px;
+		right: 30px;
+	width: 30px;
+}
+
+
+.info-ranking-user{
+	float: right;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 0 20px 20px;
+	position: relative;
+  		top: 3rem;
+
+	p{
+		display: inline-block;
+		font-size: 20px;
+	}
+	img{
+		width: 30px;
+		display: inline-block;
+		margin-right: 5px;
+	}
+
+	hr{
+		height: 45px;
+		display: inline-block;
+		margin-left: 20px;
+ 		margin-right: 20px;
+		margin-bottom: -20px;
+	}
+}
+.secondary-menu{
+	background-color: #262651;
+	text-align: center;
+	padding: 1.15rem;
+		li{
+			display: inline-block;
+			list-style-type: none;
+			text-transform: uppercase;
+		}
+		li:first-child{
+			padding-right: 30px;
+		}
+
+		a{
+			color: #ffffff;
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			font-size: 0.875rem;
+
+			&:hover{
+				color: #F9627F;
+			}
+		}
+
+}
+
+.editar-perfil-info{
+	background-color: #ffffff;
+	width: 300px;
+	z-index: 1;
+	border-radius: 15px;
+  	position: absolute;
+  	top: 10rem;
+  	left: 470px;
+  	padding: 20px;
+  	text-align: center;
+  	box-shadow: 0px -1px 15px 0px rgba(0,0,0,0.49);
+  		-webkit-box-shadow: 0px -1px 15px 0px rgba(0,0,0,0.49);
+		-moz-box-shadow: 0px -1px 15px 0px rgba(0,0,0,0.49);
+	display: none;
+  	img{
+  		width: 37px;
+  		display: inline-block;
+  	}
+  	input[placeholder="URL"]{
+		display: inline-block;
+		width: 215px;
+	}
+	input[type="submit"]{
+		display: inline-block;
+		margin: 0;
+		padding-top: .5rem;
+		padding-bottom: .6rem;
+	}
+	form{
+		padding-top: 1rem;
+	}
+}
+
+.perfil-info-oculto{
+	display: none;
+	float: left;
+	img{
+		width: 30px;
+	}
+}
+img.icon-ed{
+	width: 15px;
+}
+
+.tu-perfil{
+	background-image: url(../../img/fondo1.jpg);
+}
+
+.perfil-video{
+	background-color: #25AAAD;
+	text-align: center;
+	color: #ffffff;
+	height: 400px;
+	padding-top: 2rem;
+
+	input[type="text"]{
+		max-width: 500px;
+		margin: 2.5rem auto 1.5rem;
+	}
+
+	input[type="submit"]{
+		margin-bottom: 3rem;
+	}
+
+	li{
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	img{
+		width: 120px;
+	}
+}
+
+.perfil-descripcion{
+	background-color: #1C1C49;
+	color: #ffffff;
+	height: 400px;
+	padding-top: 2rem;
+	.intrucciones{
+		background-color: transparent;
+		color: #939598;
+	}
+}
+
+
+.photos-user{
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.photo{
+	border: 3px solid #DEDDDD;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	margin-left: 10px;
+	position: relative;
+	color:#DEDDDD; 
+	&:hover{
+		background-color: #DEDDDD;
+		color: #ffffff;
+	}
+
+	img{
+		width: 15px;
+  		position: absolute;
+  			top: 5px;
+  			right: 5px;
+	}
+
+
+}
+
+.mas{
+	font-size: 100px;
+	margin: 0;
+	position: absolute;
+		top: 40%;
+		left: 0;
+		right: 0;
+
+}

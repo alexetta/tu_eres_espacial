@@ -1,0 +1,161 @@
+
+@media only screen and (max-width: 56.250em){
+  nav{
+    background-color: #101023;
+    margin: 0;
+    padding: 3rem 7rem 2rem 0;
+    display: none;
+  }
+  nav li{
+    display:block;
+    padding-top: 20px;
+
+  }
+  .burger {
+    display: inline-block;
+  }
+  .burger img{
+    font-weight: 300;
+  }
+
+  /*Bases*/
+
+  .headBases img{
+    position: absolute;
+      left:5rem;
+    width: 350px;
+
+  }
+
+  .instrucciones{
+    height: 325px;
+    .uno, .tres, .cinco{
+      height: 325px;
+    }
+  }
+  /*galeria*/
+
+  .galaxia-imgUser{
+    display: none;
+  }
+
+  .galaxia-name{
+    overflow: hidden;
+    max-height: 22px;
+    width: 95px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+  }
+
+}
+/* 768px */
+@media only screen and (max-width: 48em){
+
+  .home{
+    background-size: auto 70%;
+    background-position: center;
+    padding: 20rem 0;
+  }
+
+  .recaudado, .dias{
+    text-align: center;
+    padding: 0;
+  }
+}
+
+/* 640 px */
+@media only screen and (max-width: 40em){
+  .headBases{
+    height: 400px;
+    img{
+      position: absolute;
+        bottom: -3rem;
+        left:2rem;
+      width: 250px;
+    }
+    .intro{
+      position: absolute;
+        left: 25%;
+        top: 20%;
+    }
+  }
+  .paso{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0;
+    img{
+      width: 40px;
+      display: inline-block;
+    }
+  }
+
+  .instrucciones{
+    height: 400px;
+    .uno, .dos, .tres, .cuatro, .cinco{
+      height: 80px;
+      padding:15px;
+
+      img{
+        display: inline-block;
+        margin: 0 10px;
+      }
+      p{
+        display: inline-block;
+      }
+
+      h5{
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 32.188em){
+
+  .pictures{
+    padding: 1rem;
+  }
+}
+
+
+
+/* 320 px */
+@media only screen and (max-width: 20em){
+  .tittle{
+    font-size: 1.25rem;
+    color: #ffffff;
+  }
+
+  .tittle2{
+    font-size: 2rem;
+  }
+
+  .recaudado, .dias{
+    text-align: center;
+    padding: 0;
+  }
+  /*bases*/
+  .headBases{
+    height: 400px;
+    img{
+      position: absolute;
+        bottom: -3rem;
+        left:2rem;
+      width: 250px;
+    }
+    .intro{
+      position: absolute;
+        left: 25%;
+        top: 20%;
+    }
+  }
+  
+}
+
