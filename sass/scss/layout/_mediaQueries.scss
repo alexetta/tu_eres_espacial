@@ -61,6 +61,17 @@
     text-align: center;
     padding: 0;
   }
+
+  /*Galeria*/
+  .galaxia-votar{
+    img{
+      width: 40px;
+    }
+  }
+
+  .galaxia{
+    padding-bottom: 2rem;
+  }
 }
 
 /* 640 px */
@@ -114,6 +125,17 @@
       }
     }
   }
+
+  /*Galeria*/
+  .galaxia-imgUser{
+    display: block;
+  }
+
+  .galaxia-name{
+    overflow: hidden;
+    width: auto;
+  }
+
 }
 
 
@@ -122,12 +144,31 @@
   .pictures{
     padding: 1rem;
   }
+  .btn_votado, .btn_visto, .btn_ultimo{
+    padding: 1rem .5rem;
+  }
 }
 
 
 
 /* 320 px */
 @media only screen and (max-width: 20em){
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 22px;
+  }
+
+  /*Head*/
+
+  .menu{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 4rem;
+  }
+
   .tittle{
     font-size: 1.25rem;
     color: #ffffff;
@@ -156,6 +197,29 @@
         top: 20%;
     }
   }
+  /*Galeria*/
+  .videoGaleria{
+    iframe{
+      height: 200px;
+    }
+  }
+
+  .galaxia-imgUser{
+    display: none;
+  }
+
+  .galaxia-name{
+    overflow: hidden;
+    width: auto;
+  }
+  .galaxia-votar{
+    img{
+      width: 40px;
+    }
+  }
+
+  
+
   
 }
 

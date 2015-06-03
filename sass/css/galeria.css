@@ -8455,6 +8455,9 @@ li.moneyActive {
     margin: 0;
     display: inline-block; }
 
+.gl-vistas {
+  margin-left: 15px; }
+
 .galaxia-votar {
   text-align: center; }
   .galaxia-votar p {
@@ -8976,7 +8979,14 @@ input[name="reg_google"] {
 
   .recaudado, .dias {
     text-align: center;
-    padding: 0; } }
+    padding: 0; }
+
+  /*Galeria*/
+  .galaxia-votar img {
+    width: 40px; }
+
+  .galaxia {
+    padding-bottom: 2rem; } }
 /* 640 px */
 @media only screen and (max-width: 40em) {
   .headBases {
@@ -9016,12 +9026,35 @@ input[name="reg_google"] {
         font-size: 20px;
         font-weight: 300;
         line-height: 24px;
-        margin: 0; } }
+        margin: 0; }
+
+  /*Galeria*/
+  .galaxia-imgUser {
+    display: block; }
+
+  .galaxia-name {
+    overflow: hidden;
+    width: auto; } }
 @media only screen and (max-width: 32.188em) {
   .pictures {
-    padding: 1rem; } }
+    padding: 1rem; }
+
+  .btn_votado, .btn_visto, .btn_ultimo {
+    padding: 1rem .5rem; } }
 /* 320 px */
 @media only screen and (max-width: 20em) {
+  h1 {
+    font-size: 30px; }
+
+  h2 {
+    font-size: 22px; }
+
+  /*Head*/
+  .menu {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 4rem; }
+
   .tittle {
     font-size: 1.25rem;
     color: #ffffff; }
@@ -9044,6 +9077,20 @@ input[name="reg_google"] {
     .headBases .intro {
       position: absolute;
       left: 25%;
-      top: 20%; } }
+      top: 20%; }
+
+  /*Galeria*/
+  .videoGaleria iframe {
+    height: 200px; }
+
+  .galaxia-imgUser {
+    display: none; }
+
+  .galaxia-name {
+    overflow: hidden;
+    width: auto; }
+
+  .galaxia-votar img {
+    width: 40px; } }
 
 /*# sourceMappingURL=galeria.css.map */
