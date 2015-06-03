@@ -8,12 +8,13 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
     <script src="../js/vendor/modernizr.js"></script>
+    <script src="../js/script.js"></script>
   </head>
 
   <body>
     <header class="mainHeader">
       <div >
-        <a href="#">
+        <a href="../index.html">
           <img class="logo" src="../img/logo.svg">
         </a>
       </div>
@@ -29,17 +30,17 @@
       </div>
       <nav class="menu" >  
           <ul>
-            <li><a href="#">Vídeo-Galaxia</a></li>
-            <li><a href="#">Premios</a></li>
-            <li><a href="#">Ayúdano$</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="galeria.html">Vídeo-Galaxia</a></li>
+            <li><a href="premio.html">Premios</a></li>
+            <li><a href="http://goteo.org/">Colabora</a></li>
+            <li><a href="../index.html">Nosotros</a></li>
+            <li class="pagina-actual">Contacto</li>
             <li><a href="#" class="login_btn">Login</a></li>
-            <li><a href="#" class="registro_btn">Registro</a></li>
+            <li><a href="registro.html" class="registro_btn">Registro</a></li>
           </ul>
       </nav>
       <div class="form_registro">
-        <a href="#">
+        <a class="closeLogin" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 28.042 28.042" enable-background="new 0 0 28.042 28.042" xml:space="preserve">
             <g>
                 <line fill="none" stroke="#666666" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="26.042" y1="26.042" x2="2" y2="2"/>
@@ -60,10 +61,10 @@
           <label>Introduce la contraseña</label>
           <input name="password" type="password" placeholder="Enter your password">
           <p class="link">¿Has olvidado tu contraseña</p>
-          <input class="pink_btn" name="login" type="submit" value="ACCEDER"><br>
+          <a href="perfil-juan.html" class="pink_btn round button">ACCEDER<a><br>
           <input type="checkbox"> Mantenerme registrado
           </form>
-          <p>¿Aún no tienes cuenta? <a href="#" class="link">Regístrate</a></p>
+          <p>¿Aún no tienes cuenta? <a href="registro.html" class="link">Regístrate</a></p>
   
       </div>
     </header> 
@@ -85,7 +86,7 @@
           <textarea name="mensaje" rows="5" cols="30">Escribe tu mensaje</textarea>
           <input type="submit" class="pink_btn round button" value="Enviar">
         </form>
-        <div class="contactDetails"><p>(+34)650 939  768</p><p>tueresespacial@gmail.com</p></div>
+        <div class="contactDetails"><p>Tel: (+34)650 939  768</p><p> Email: <a href="mailto:tueresespacial@gmail.com" class="link">tueresespacial@gmail.com</a></p></div>
       </div>
     </article>
 
@@ -99,7 +100,7 @@
             <hr>
             <h4>Email de contacto</h4>
             <img src="">
-            <a href="">tueresespacial@gmail.com</a>
+            <a href="mailto:tueresespacial@gmail.com">tueresespacial@gmail.com</a>
             <hr>
             <a href="">Faq</a>
             <a href="">Participa</a>
@@ -163,9 +164,7 @@
         }
       });
 
-      $('.login_btn').click(function(event) {
-        $('.form_registro').show();
-      });
+      
 
     </script>
   </body>
