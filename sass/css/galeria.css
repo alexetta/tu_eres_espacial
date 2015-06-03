@@ -9039,7 +9039,7 @@ input[name="reg_google"] {
   .pictures {
     padding: 1rem; }
 
-  .btn_votado, .btn_visto, .btn_ultimo {
+  .filtro ul .btn_votado, .filtro ul .btn_visto, .filtro ul .btn_ultimo {
     padding: 1rem .5rem; } }
 /* 320 px */
 @media only screen and (max-width: 20em) {
