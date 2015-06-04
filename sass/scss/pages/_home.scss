@@ -104,6 +104,14 @@ li.active{
       display: inline-block;
       width: 15px;
     }
+    p{
+      display: inline-block;
+    }
+
+    a{
+      padding-top: 0.3rem;
+      padding-bottom: .4rem;
+    }
 }
 
 .user-details{
@@ -112,8 +120,10 @@ li.active{
 
 
 .name{
-  display: inline-block;
-  margin: 0;
+  p{
+    display: inline-block;
+    margin: 0;
+  }
 }
 
 .video-galaxia form{
@@ -135,11 +145,12 @@ li.active{
     img{
       display: block;
       margin: 0 auto;
-      width: 55px;
+      width: 70px;
       margin-bottom: .4rem;
       cursor: pointer;
     }
     a{
+      font-size: 14px;
       padding-top: .4rem;
       padding-bottom: .525rem;
     }
@@ -162,6 +173,12 @@ li.active{
   background-color: #63c3c6;
   text-align: center;
   padding: 30px;
+  a{
+    display: block;
+    max-width: 250px;
+    margin: 10px auto 20px;
+
+  }
 }
 
 .steps .button{

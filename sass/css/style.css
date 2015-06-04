@@ -8037,7 +8037,8 @@ a {
 
 /* Formularios */
 label {
-  display: none; }
+  visibility: hidden;
+  height: 0; }
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"] {
   font-family: 'Lato', sans-serif;
@@ -8147,11 +8148,16 @@ li.active {
   .userInfo img {
     display: inline-block;
     width: 15px; }
+  .userInfo p {
+    display: inline-block; }
+  .userInfo a {
+    padding-top: 0.3rem;
+    padding-bottom: .4rem; }
 
 .user-details {
   float: left; }
 
-.name {
+.name p {
   display: inline-block;
   margin: 0; }
 
@@ -8170,10 +8176,11 @@ li.active {
   .votar img {
     display: block;
     margin: 0 auto;
-    width: 55px;
+    width: 70px;
     margin-bottom: .4rem;
     cursor: pointer; }
   .votar a {
+    font-size: 14px;
     padding-top: .4rem;
     padding-bottom: .525rem; }
 
@@ -8190,6 +8197,10 @@ li.active {
   background-color: #63c3c6;
   text-align: center;
   padding: 30px; }
+  .steps a {
+    display: block;
+    max-width: 250px;
+    margin: 10px auto 20px; }
 
 .steps .button {
   padding: 15px 60px; }
@@ -9104,19 +9115,23 @@ input[name="reg_google"] {
   .moneyActive {
     margin-top: 2rem; }
     .moneyActive p {
-      font-size: 16px; } }
+      font-size: 16px; }
+
+  .video-galaxia {
+    padding-top: 4rem;
+    padding-right: 0;
+    padding-left: 0; }
+    .video-galaxia .previous, .video-galaxia .next {
+      position: absolute;
+      top: -30px; }
+      .video-galaxia .previous img, .video-galaxia .next img {
+        width: 25px; }
+    .video-galaxia ul {
+      margin-top: 3rem; }
+    .video-galaxia iframe {
+      height: 200px; } }
 /* 320 px */
 @media only screen and (max-width: 20em) {
-  h1 {
-    font-size: 30px; }
-
-  h2 {
-    font-size: 22px; }
-
-  /*Home*/
-  .imgUser {
-    display: none; }
-
   .votar {
     border-top: 1px solid #313357;
     float: none; }
@@ -9126,8 +9141,19 @@ input[name="reg_google"] {
     .votar p {
       display: inline-block; }
     .votar a {
-      display: inline-block; }
+      display: inline-block; } }
+/* 320 px */
+@media only screen and (max-width: 20em) {
+  h1 {
+    font-size: 30px; }
 
+  h2 {
+    font-size: 22px; }
+
+  .imgUser {
+    display: none; }
+
+  /*Home*/
   .video-galaxia {
     padding-top: 4rem;
     padding-right: 0;
@@ -9196,4 +9222,4 @@ input[name="reg_google"] {
   .galaxia-votar img {
     width: 40px; } }
 
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=style.css.map */
