@@ -8485,6 +8485,17 @@ li.moneyActive {
     padding-top: .4rem;
     padding-bottom: .525rem; }
 
+.bienvenido {
+  color: #F9627F; }
+  .bienvenido p {
+    display: inline-block;
+    font-weight: 300;
+    margin: 0; }
+  .bienvenido img {
+    width: 20px;
+    border: 1px solid #F9627F;
+    border-radius: 100px; }
+
 .perfil-head {
   background-image: url(../../img/fondo1.jpg);
   color: #ffffff;
@@ -8492,6 +8503,9 @@ li.moneyActive {
   padding-bottom: 3rem; }
   .perfil-head p {
     margin: 0; }
+
+.logout {
+  color: #F9627F; }
 
 .imagen-perfil {
   width: 175px;
@@ -8526,7 +8540,7 @@ li.moneyActive {
 .popup {
   background-color: #ffffff;
   display: none;
-  z-index: 1;
+  z-index: 2;
   padding: 2rem;
   border-radius: 20px;
   width: 600px;
@@ -8783,7 +8797,8 @@ img.icon-ed {
 
 .perfil-info-oculto {
   display: none;
-  float: left; }
+  float: left;
+  z-index: 1; }
   .perfil-info-oculto img {
     width: 30px; }
 

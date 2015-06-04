@@ -1,3 +1,18 @@
+.bienvenido{
+	color: #F9627F;
+	p{
+		display: inline-block;
+		font-weight: 300;
+		margin: 0;
+	}
+
+	img{
+		width: 20px;
+		border: 1px solid #F9627F;
+		border-radius: 100px;
+	}
+}
+
 .perfil-head{
 	background-image: url(../../img/fondo1.jpg);
 	color: #ffffff;
@@ -7,6 +22,10 @@
 	p{
 		margin: 0;
 	}
+}
+
+.logout{
+	color: #F9627F;
 }
 
 .imagen-perfil{
@@ -56,7 +75,7 @@
 .popup{
 	background-color: #ffffff;
 	display: none;
-	z-index: 1;
+	z-index: 2;
 	padding: 2rem;
 	border-radius: 20px;
 	width: 600px;
