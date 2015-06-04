@@ -72,6 +72,8 @@
   .galaxia{
     padding-bottom: 2rem;
   }
+
+
 }
 
 /* 640 px */
@@ -136,6 +138,64 @@
     width: auto;
   }
 
+  /*Home*/
+
+
+  .goteo ul{
+    display: inline-block;
+  }
+
+  .goteo a{
+    display: inline-block;
+  }
+
+  .goteo hr{
+    width: 0;
+    height: 60px;
+    display: inline-block;
+    margin: 0 30px -20px;
+  }
+
+  .progressKnow img{
+    width: 65px;
+  }
+
+  .video-galaxia{
+    .previous, .next {
+      position: absolute;
+      top: 0px;
+      margin-top: -20px;
+      img{
+        width: 40px;
+      }
+    }
+    ul{
+
+    }
+    iframe{
+      height: 250px;
+    }
+
+  }
+
+  .home{
+  height: 40em;
+    h2{
+    font-size: 18px;
+    line-height: 28px;
+    }
+  }
+  .userInfo{
+    max-width: 200px;
+    img{
+      display: inline-block;
+    }
+    p{
+      display: inline-block;
+    }
+  }
+
+
 }
 
 
@@ -151,9 +211,40 @@
       }
     }
   }
+  .padding: 3rem 0;
 }
 
+@media only screen and (max-width: 27.375em){
 
+  .goteo ul{
+    display: inline-block;
+  }
+
+  .goteo a{
+    display: inline-block;
+  }
+
+  .goteo hr{
+    width: 0;
+    height: 60px;
+    display: inline-block;
+    margin: 0 10px -20px;
+  }
+  .goteo p{
+    font-size: 30px;
+  }
+  .goteo img{
+    margin: 0;
+  }
+
+  .moneyActive{
+  margin-top: 2rem;
+
+    p{
+      font-size: 16px;
+    }
+  }
+}
 
 /* 320 px */
 @media only screen and (max-width: 20em){
@@ -163,6 +254,59 @@
 
   h2{
     font-size: 22px;
+  }
+  /*Home*/
+  .imgUser{
+    display: none;
+  }
+
+  .votar{
+    border-top: 1px solid rgb(49, 51, 87);
+    float: none;
+    img{
+      display: inline-block;
+      width: 40px;
+    }
+    p{
+      display: inline-block;
+    }
+    a{
+      display: inline-block;
+    }
+  }
+  .video-galaxia{
+    padding-top: 4rem;
+    padding-right: 0;
+    padding-left: 0;
+    .previous, .next {
+      position: absolute;
+      top: 35px;
+      img{
+        width: 25px;
+      }
+    }
+    ul{
+
+    }
+    iframe{
+      height: 200px;
+    }
+  }
+
+  .home-container{
+    padding-top: 4rem;
+  }
+
+  .user-details{
+    width: 100%;
+  }
+
+  .who{
+    padding-left: 0;
+    padding-right: 0;
+    h1{
+      font-size: 30px;
+    }
   }
 
   /*Head*/

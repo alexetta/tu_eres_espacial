@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tu Eres Espacial</title>
-    <link rel="stylesheet" href="sass/css/home.css" /
+    <link rel="stylesheet" href="sass/css/style.css" /
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
     <script src="js/vendor/modernizr.js"></script>
@@ -29,13 +29,13 @@
       </div>
       <nav class="menu" >  
           <ul>
-            <li><a href="#">Vídeo-Galaxia</a></li>
-            <li><a href="#">Premios</a></li>
-            <li><a href="#">Ayúdano$</a></li>
+            <li><a href="html/galeria.html">Vídeo-Galaxia</a></li>
+            <li><a href="html/premio.html">Premios</a></li>
+            <li><a href="http://goteo.org/">Ayúdano$</a></li>
             <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="html/contacto.html">Contacto</a></li>
             <li><a href="#" class="login_btn">Login</a></li>
-            <li><a href="#" class="registro_btn">Registro</a></li>
+            <li><a href="html/registro.html" class="registro_btn">Registro</a></li>
           </ul>
       </nav>
       <div class="form_registro">
@@ -60,7 +60,7 @@
           <label>Introduce la contraseña</label>
           <input name="password" type="password" placeholder="Enter your password">
           <p class="link">¿Has olvidado tu contraseña</p>
-          <input class="round button pink_btn" name="login" type="submit" value="ACCEDER"><br>
+          <a href="html/perfil.html" class="round button pink_btn">ACCEDER</a><br>
           <input type="checkbox"> Mantenerme registrado
           </form>
           <p>¿Aún no tienes cuenta? <a href="#" class="link">Regístrate</a></p>
@@ -72,8 +72,8 @@
         <div class="row text-center">
           <h1 class="medium-6 large-6 small-centered medium-centered large-centered columns">Qué eres capaz de hacer para ir al espacio?</h1>
           <h2 class="medium-10 large-8 small-centered medium-centered large-centered columns">El primer concurso online basado en un crowfunding en el que seas quién ses podrás cumplir tu sueño y viajar al espacio. </h2>
-          <a href="#" class="medium round button pink_btn small-centered medium-centered large-centered ">Únete a la experiencia</a><br/>
-          <a href="#" class="link">Únete a la experiencia</a><br/>  
+          <a href="html/registro.html" class="medium round button pink_btn small-centered medium-centered large-centered ">Únete a la experiencia</a><br/>
+          <a href="html/bases.html" class="link">Consulta las bases del concurso</a><br/>  
         </div>
       </article>
      
@@ -83,7 +83,7 @@
           <p>Descubre las histórias de los participantes
           </p>  
         <div class="row">
-         <div>
+         <div class="home-container">
           <a href="#" class="previous"><img src="img/arrowSlide.png"></a>
           <ul>
             <li class="small-12 medium-8 large-8 large-centered medium-centered columns active">
@@ -97,14 +97,17 @@
                     <div class="imgUser"></div>
                     <div class="userInfo">
                       <p class="name">Mario Martínez Rosales</p>
-                      <img src="d">
+                      <img src="img/videos/share.svg">
+                      <img src="img/videos/coments.svg">
+                      <p>874</p>
+                      <img src="img/videos/vistas.svg">
                       <p>874</p>
                     </div>
                   </div>
 
                   <div class="votar">
                     <p class="votos">651</p>
-                    <img src="../img/videos/corazonBlanco.svg">
+                    <img src="img/videos/corazonBlanco.svg">
                     <a href="" class="pink_btn round button">Votar</a>
                   </div>
                   
@@ -163,7 +166,7 @@
          </div>
         </div>
         <a href="#" class="medium round button white_btn">¡Ver Ranking!</a>
-        <a href="#" class="medium round button white_btn">Ver galería completa</a>
+        <a href="html/galeria.html" class="medium round button white_btn">Ver galería completa</a>
         
        </article>
 

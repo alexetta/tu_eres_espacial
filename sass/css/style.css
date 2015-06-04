@@ -7773,7 +7773,11 @@ nav a:hover {
   color: #F9627F; }
 
 .pagina-actual {
-  color: #F9627F; }
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #F9627F;
+  text-transform: uppercase; }
 
 .login_btn, .registro_btn {
   color: #F9627F; }
@@ -8141,7 +8145,8 @@ li.active {
 .userInfo {
   float: left; }
   .userInfo img {
-    display: inline-block; }
+    display: inline-block;
+    width: 15px; }
 
 .user-details {
   float: left; }
@@ -8352,6 +8357,9 @@ li.moneyActive {
   .paso img {
     width: 80px; }
 
+.participarBases {
+  position: absolute; }
+
 .uno, .tres, .cinco {
   background-color: #E6E6E6; }
 
@@ -8447,6 +8455,9 @@ li.moneyActive {
   .galaxia-userInfo p {
     margin: 0;
     display: inline-block; }
+
+.gl-vistas {
+  margin-left: 15px; }
 
 .galaxia-votar {
   text-align: center; }
@@ -8937,7 +8948,29 @@ input[name="reg_google"] {
     display: inline-block; }
 
   .burger img {
-    font-weight: 300; } }
+    font-weight: 300; }
+
+  /*Bases*/
+  .headBases img {
+    position: absolute;
+    left: 5rem;
+    width: 350px; }
+
+  .instrucciones {
+    height: 325px; }
+    .instrucciones .uno, .instrucciones .tres, .instrucciones .cinco {
+      height: 325px; }
+
+  /*galeria*/
+  .galaxia-imgUser {
+    display: none; }
+
+  .galaxia-name {
+    overflow: hidden;
+    max-height: 22px;
+    width: 95px;
+    white-space: nowrap;
+    text-overflow: ellipsis; } }
 /* 768px */
 @media only screen and (max-width: 48em) {
   .home {
@@ -8947,12 +8980,184 @@ input[name="reg_google"] {
 
   .recaudado, .dias {
     text-align: center;
-    padding: 0; } }
+    padding: 0; }
+
+  /*Galeria*/
+  .galaxia-votar img {
+    width: 40px; }
+
+  .galaxia {
+    padding-bottom: 2rem; } }
+/* 640 px */
+@media only screen and (max-width: 40em) {
+  .headBases {
+    height: 400px; }
+    .headBases img {
+      position: absolute;
+      bottom: -3rem;
+      left: 2rem;
+      width: 250px; }
+    .headBases .intro {
+      position: absolute;
+      left: 25%;
+      top: 20%; }
+
+  .paso {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0; }
+    .paso img {
+      width: 40px;
+      display: inline-block; }
+
+  .instrucciones {
+    height: 400px; }
+    .instrucciones .uno, .instrucciones .dos, .instrucciones .tres, .instrucciones .cuatro, .instrucciones .cinco {
+      height: 80px;
+      padding: 15px; }
+      .instrucciones .uno img, .instrucciones .dos img, .instrucciones .tres img, .instrucciones .cuatro img, .instrucciones .cinco img {
+        display: inline-block;
+        margin: 0 10px; }
+      .instrucciones .uno p, .instrucciones .dos p, .instrucciones .tres p, .instrucciones .cuatro p, .instrucciones .cinco p {
+        display: inline-block; }
+      .instrucciones .uno h5, .instrucciones .dos h5, .instrucciones .tres h5, .instrucciones .cuatro h5, .instrucciones .cinco h5 {
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0; }
+
+  /*Galeria*/
+  .galaxia-imgUser {
+    display: block; }
+
+  .galaxia-name {
+    overflow: hidden;
+    width: auto; }
+
+  /*Home*/
+  .goteo ul {
+    display: inline-block; }
+
+  .goteo a {
+    display: inline-block; }
+
+  .goteo hr {
+    width: 0;
+    height: 60px;
+    display: inline-block;
+    margin: 0 30px -20px; }
+
+  .progressKnow img {
+    width: 65px; }
+
+  .video-galaxia .previous, .video-galaxia .next {
+    position: absolute;
+    top: 0px;
+    margin-top: -20px; }
+    .video-galaxia .previous img, .video-galaxia .next img {
+      width: 40px; }
+  .video-galaxia iframe {
+    height: 250px; }
+
+  .home {
+    height: 40em; }
+    .home h2 {
+      font-size: 18px;
+      line-height: 28px; }
+
+  .userInfo {
+    max-width: 200px; }
+    .userInfo img {
+      display: inline-block; }
+    .userInfo p {
+      display: inline-block; } }
 @media only screen and (max-width: 32.188em) {
   .pictures {
-    padding: 1rem; } }
+    padding: 1rem; }
+
+  .filtro ul .btn_votado, .filtro ul .btn_visto, .filtro ul .btn_ultimo {
+    padding: 1rem .5rem; }
+
+  .padding: 3rem 0; }
+@media only screen and (max-width: 27.375em) {
+  .goteo ul {
+    display: inline-block; }
+
+  .goteo a {
+    display: inline-block; }
+
+  .goteo hr {
+    width: 0;
+    height: 60px;
+    display: inline-block;
+    margin: 0 10px -20px; }
+
+  .goteo p {
+    font-size: 30px; }
+
+  .goteo img {
+    margin: 0; }
+
+  .moneyActive {
+    margin-top: 2rem; }
+    .moneyActive p {
+      font-size: 16px; } }
 /* 320 px */
 @media only screen and (max-width: 20em) {
+  h1 {
+    font-size: 30px; }
+
+  h2 {
+    font-size: 22px; }
+
+  /*Home*/
+  .imgUser {
+    display: none; }
+
+  .votar {
+    border-top: 1px solid #313357;
+    float: none; }
+    .votar img {
+      display: inline-block;
+      width: 40px; }
+    .votar p {
+      display: inline-block; }
+    .votar a {
+      display: inline-block; }
+
+  .video-galaxia {
+    padding-top: 4rem;
+    padding-right: 0;
+    padding-left: 0; }
+    .video-galaxia .previous, .video-galaxia .next {
+      position: absolute;
+      top: 35px; }
+      .video-galaxia .previous img, .video-galaxia .next img {
+        width: 25px; }
+    .video-galaxia iframe {
+      height: 200px; }
+
+  .home-container {
+    padding-top: 4rem; }
+
+  .user-details {
+    width: 100%; }
+
+  .who {
+    padding-left: 0;
+    padding-right: 0; }
+    .who h1 {
+      font-size: 30px; }
+
+  /*Head*/
+  .menu {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 4rem; }
+
   .tittle {
     font-size: 1.25rem;
     color: #ffffff; }
@@ -8962,6 +9167,33 @@ input[name="reg_google"] {
 
   .recaudado, .dias {
     text-align: center;
-    padding: 0; } }
+    padding: 0; }
 
-/*# sourceMappingURL=registro.css.map */
+  /*bases*/
+  .headBases {
+    height: 400px; }
+    .headBases img {
+      position: absolute;
+      bottom: -3rem;
+      left: 2rem;
+      width: 250px; }
+    .headBases .intro {
+      position: absolute;
+      left: 25%;
+      top: 20%; }
+
+  /*Galeria*/
+  .videoGaleria iframe {
+    height: 200px; }
+
+  .galaxia-imgUser {
+    display: none; }
+
+  .galaxia-name {
+    overflow: hidden;
+    width: auto; }
+
+  .galaxia-votar img {
+    width: 40px; } }
+
+/*# sourceMappingURL=home.css.map */
