@@ -8173,8 +8173,6 @@ li.active {
   text-align: center; }
   .votar p {
     margin: 0; }
-  .votar p:first-child {
-    margin-top: 1rem; }
   .votar img {
     display: block;
     margin: 0 auto;
@@ -8187,8 +8185,7 @@ li.active {
     padding-bottom: .525rem; }
   .votar button {
     padding: 0;
-    background-color: transparent;
-    margin: 0; }
+    background-color: transparent; }
 
 .dropDown {
   width: 20px;
@@ -9243,4 +9240,4 @@ input[name="reg_google"] {
   .galaxia-votar img {
     width: 40px; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
