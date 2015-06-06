@@ -48,7 +48,15 @@ overflow: hidden;
 		text-overflow: ellipsis;
 	}
 }
-
+.galaxia{
+  .button-group{
+    li{
+      a{
+        padding: 1rem .4rem;
+      }
+    }
+  }
+}
 
 .galaxia .videoDetails{
   margin-bottom: .5rem;
@@ -79,6 +87,10 @@ overflow: hidden;
   		margin: 0;
   		display: inline-block;
   	}
+    a{
+      padding-top: .4rem;
+      padding-bottom: .525rem;
+    }
 }
 
 .gl-vistas{
@@ -100,8 +112,5 @@ overflow: hidden;
       margin-bottom: .4rem;
       cursor: pointer;
     }
-    a{
-      padding-top: .4rem;
-      padding-bottom: .525rem;
-    }
+    
 }

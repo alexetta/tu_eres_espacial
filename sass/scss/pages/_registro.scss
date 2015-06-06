@@ -1,5 +1,5 @@
 .registro{
-	background-image: url(../../img/fondo1.jpg);
+	background-image: url(../img/fondo1.jpg);
 	background-repeat: no-repeat;
 	background-size: auto 100% ;
   	background-color: #101023;
@@ -24,7 +24,7 @@ input[name="reg_facebook"], input[name="reg_google"]{
 }
 
 input[name="reg_facebook"]{
-	background:#3b579b url(../../img/registro/googleplus.svg) no-repeat;
+	background:#3b579b url(../img/registro/googleplus.svg) no-repeat;
 	background-size: 20px auto;
 	background-position: top 8px left 20px;
 	&:hover{
@@ -33,7 +33,7 @@ input[name="reg_facebook"]{
 }
 
 input[name="reg_google"]{
-	background:#f44336 url(../../img/registro/facebook.svg) no-repeat;
+	background:#f44336 url(../img/registro/facebook.svg) no-repeat;
 	background-size: 20px auto;
 	background-position: top 8px left 20px;
 	&:hover{

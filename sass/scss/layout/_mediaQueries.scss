@@ -264,26 +264,7 @@
   }
 }
 
-/* 320 px */
-@media only screen and (min-width: 20em) and (max-width: 27.375em){
   
-}
-@media only screen and (max-width: 20em){
-  .votar{
-    border-top: 1px solid rgb(49, 51, 87);
-    float: none;
-    img{
-      display: inline-block;
-      width: 40px;
-    }
-    p{
-      display: inline-block;
-    }
-    a{
-      display: inline-block;
-    }
-  }
-}
 
 /* 320 px */
 @media only screen and (max-width: 20em){
@@ -313,9 +294,6 @@
         width: 25px;
       }
     }
-    ul{
-
-    }
     iframe{
       height: 200px;
     }
@@ -336,6 +314,22 @@
       font-size: 30px;
     }
   }
+
+  .votar{
+    border-top: 1px solid rgb(49, 51, 87);
+    float: none;
+      img{
+        display: inline-block;
+        width: 40px;
+      }
+      p{
+        display: inline-block;
+      }
+      a{
+        display: inline-block;
+      }
+  }
+  
 
   /*Head*/
 
@@ -393,9 +387,39 @@
       width: 40px;
     }
   }
+  .instrucciones{
+    .uno, .dos, .tres, .cuatro, .cinco{
+      height: 80px;
+      padding:15px;
 
-  
+      img{
+        width: 20px;
+        margin: 0 5px;
+      }
+      p{
+        display: inline-block;
+      }
 
-  
+      h5{
+        font-size: 17px;
+      }
+    }
+  }
+  .headBases{
+    img{
+      position: absolute;
+        bottom: -7rem;
+        left: -2rem;
+    }
+  }
+  .galaxia{
+    .button-group{
+      li{
+        a{
+          padding: 1rem .4rem;
+        }
+      }
+  }
+}
 }
 
